@@ -1,12 +1,21 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 
+const heading = (
+    <h1 id='title' key="h1">
+        Hello world
+    </h1>
+)
 
-const heading1 = React.createElement("p", {id: 'heading1'}, "paragraph 1");
-const heading2 = React.createElement("p", {id: 'heading2'}, "paragraph 2");
+const Heading2 = () => {
+    return (
+        <div>
+            <h1>Hello world 2</h1>
+            <h2>My Name is Shripad</h2>
+        </div>
+    );
+};
 
-const name = React.createElement("h1", {}, [heading1, heading2]);
+const root = ReactDOM.createRoot(document.getElementById("root"));
 
-const root = ReactDOM.createRoot(document.getElementById("root"))
-
-root.render(name);
+root.render(<Heading2 />);
