@@ -2,10 +2,11 @@
   "name": "first_react_app",
   "version": "1.0.0",
   "description": "This is my first react app",
-  "main": "index.js",
+  "main": "App.js",
   "scripts": {
-    "start":"parcel index.html",
-    "test": "jest"
+    "start": "parcel index.html",
+    "test": "jest",
+    "build": "parcel build index.html"
   },
   "author": "Shripad Ige",
   "license": "ISC",
@@ -15,6 +16,7 @@
   },
   "dependencies": {
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^7.1.1"
   }
 }
