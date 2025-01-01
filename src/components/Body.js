@@ -35,14 +35,14 @@ const Body = () => {
   }, []);
 
   async function getRestaurantList() {
-   
-      const data = await fetch("https://www.swiggy.com/dapi/restaurants/list/v5?lat=17.6599188&lng=75.9063906&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING");
-  
-      const json = await data.json();
-  
-      setAllRestaurants(json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
-      setfilteredRestaurants(json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
-    
+
+    const data = await fetch("https://www.swiggy.com/dapi/restaurants/list/v5?lat=17.6599188&lng=75.9063906&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING");
+
+    const json = await data.json();
+
+    setAllRestaurants(json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
+    setfilteredRestaurants(json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
+
   }
 
   if (!allRestaurants) return null;
@@ -56,20 +56,20 @@ const Body = () => {
 
   return allRestaurants?.length === 0 ? (<Shimmer />) : (
     <div className="body-wrapper">
-      <div className="main-search-wrapper">
-        <div className="input-button-wrap">
-          <input
-            className="search-input"
-            type="text"
-            value={inputValue}
-            placeholder="Search Restaurant"
-            onChange={(e) => setInputValue(e.target.value)}
-          />
-          <button className="search-button" onClick={() => {handleSearchClick()}}>
-            Search
-          </button>
+        <div className="main-search-wrapper">
+          <div className="input-button-wrap">
+            <input
+              className="search-input"
+              type="text"
+              value={inputValue}
+              placeholder="Search Restaurant"
+              onChange={(e) => setInputValue(e.target.value)}
+            />
+            <button className="search-button" onClick={() => { handleSearchClick() }}>
+              Search
+            </button>
+          </div>
         </div>
-      </div>
       <div>
         <CategoryTitle />
         <div className="card-wrapper">
