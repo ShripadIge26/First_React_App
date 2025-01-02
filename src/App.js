@@ -9,13 +9,15 @@ import Cart from '../src/components/Cart'
 import RestaurantMenu from "./components/RestaurantMenu";
 import Error from "../src/components/Error"
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
+import { Provider } from "react-redux";
+import store from '../src/utils/store'
 
 const MainLayout = () => {
     return (
-        <>
+        <Provider store={store}>
             <Navbar />
             <Outlet />
-        </>
+        </Provider>
     )
 };
 

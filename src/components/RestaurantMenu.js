@@ -1,16 +1,23 @@
 import { useEffect, useState } from "react"
 import { useParams } from "react-router-dom"
 import { CARD_IMG_CDN_LINK } from '../components/Config'
+import {useDispatch} from 'react-redux'
+import {addItem} from '../utils/cartSlice'
 
 const RestaurantMenu = () => {
 
     const { resId } = useParams("");
     const [restaurantInfo, setRestaurantInfo] = useState({})
     const [restaurantMenuItems, setRestaurantMenuItems] = useState([])
+    const dispatch = useDispatch()
+
+    const handleAddItem = (x) => {
+        dispatch(addItem(x));
+    };
 
     useEffect(() => {
         menuDetails(resId);
-    }, [])
+    }, []);
 
     async function menuDetails(resId) {
         const url = "https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=17.6599188&lng=75.9063906&restaurantId=" + resId + "&catalog_qa=undefined&submitAction=ENTER";
@@ -19,7 +26,7 @@ const RestaurantMenu = () => {
 
         setRestaurantInfo(json?.data?.cards[2]?.card?.card?.info);
         setRestaurantMenuItems(json?.data?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards[2]?.card?.card?.itemCards);
-        console.log(restaurantMenuItems)
+        // console.log(restaurantMenuItems)
     }
 
 
@@ -33,10 +40,10 @@ const RestaurantMenu = () => {
                     </div>
             </div>
             <div>
-                <h2>Items Menu</h2>
+                <h2>Menu Items</h2>
                 <ul className="restaurant-menu">
                     {restaurantMenuItems.map(item => item?.card?.info).map(x => (
-                        <li className="item" key={x.id}>{x.name} <button>Add</button></li>
+                        <li className="item" key={x.id}>{x.name} <button onClick={() => handleAddItem(x)}>Add</button></li>
                     ))}
                 </ul>
             </div>
