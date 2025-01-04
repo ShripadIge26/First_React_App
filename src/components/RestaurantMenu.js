@@ -28,7 +28,22 @@ const RestaurantMenu = () => {
         const json = await data.json();
 
         setRestaurantInfo(json?.data?.cards[2]?.card?.card?.info);
-        setRestaurantMenuItems(json?.data?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards[2]?.card?.card?.itemCards || []);
+        
+        // console.log("this is output", json.data.cards);
+        const regularMenu = json?.data?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards[2]?.card?.card?.itemCards;
+        
+        const depth1 = json.data.cards[4].groupedCard.cardGroupMap?.REGULAR?.cards.slice(2);
+        const specialMenu = depth1.flatMap(item => item.card.card.itemCards).filter(item => item);
+
+        
+        setRestaurantMenuItems(regularMenu || specialMenu || []);
+        
+        // console.log(regularMenu);
+        // console.log(Object.values(specialMenu));
+        
+
+
+        // console.log(depth2);
         
         // setRestaurantMenuItems(json?.data?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards[2]?.card?.card?.itemCards || []);
         // if (restaurantMenuItems.length == 0) {
