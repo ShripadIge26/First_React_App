@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom"
 import {useSelector} from "react-redux"
+import logo from '../images/foodie-logo.svg'
 
 
 const Logo = () => {
@@ -8,7 +9,7 @@ const Logo = () => {
     <Link to="/" className="logo-wrapper">
       <img
         className="logo"
-        src="https://images.squarespace-cdn.com/content/v1/5ef15be0ddbf393489faa41b/1592957362496-TLELSLDWHHSV9RHHTS3O/Hungry-logo-PS-01.png"
+        src={logo}
       />
     </Link>
   );
