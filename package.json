@@ -2,7 +2,6 @@
   "name": "first_react_app",
   "version": "1.0.0",
   "description": "This is my first react app",
-  "main": "App.js",
   "scripts": {
     "start": "parcel index.html",
     "test": "jest",
