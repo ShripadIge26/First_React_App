@@ -10,19 +10,19 @@ const Cart = () => {
 
     const dispatch = useDispatch();
     
-    const handleRemoveItem = (x) => {
-        dispatch(removeItem(x))
+    const handleRemoveItem = (id) => {
+        dispatch(removeItem(id))
     }
 
     return (
-        <div>
+        <div className='cart-wrapper'>
             <h2>Cart Items</h2>
             <ul className="restaurant-menu">
                 {cartItems.map((food) =>
                 (<MenuItem
                     key={food.id}
                     currentItem={food}
-                    onRemove={handleRemoveItem}
+                    onRemove={() => handleRemoveItem(food.id)}
                 />))}
             </ul>
         </div>

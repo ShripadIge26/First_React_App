@@ -15,7 +15,7 @@ body {
 }
 
 @media (min-width: 961px) {
-  .body-wrapper, .restaurant-main-info-wrapper {
+  .body-wrapper, .restaurant-main-info-wrapper, .cart-wrapper {
     margin-left: calc(10% + 36px);
     margin-right: calc(10% + 36px);
   }
