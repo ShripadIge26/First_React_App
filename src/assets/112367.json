@@ -1,0 +1,1687 @@
+
+{
+    "statusCode": 0,
+    "data": {
+      "statusMessage": "done successfully",
+      "cards": [
+        {
+          "card": {
+            "card": {
+              "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.TextBoxV2",
+              "text": "Bombay Bakery And Cake Gallery",
+              "headerStyling": {
+                "textColor": "text_Highest_Emphasis",
+                "textVariant": "header_H3_Black"
+              }
+            }
+          }
+        },
+        {
+          "card": {
+            "card": {
+              "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.RestaurantBlTab",
+              "tabs": [
+                {
+                  "id": "Order Online",
+                  "title": "Order Online"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "card": {
+            "card": {
+              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+              "info": {
+                "id": "112367",
+                "name": "Bombay Bakery And Cake Gallery",
+                "city": "Solapur",
+                "slugs": {
+                  "restaurant": "bombay-bakery-and-cake-gallery-railway-lines-solapur-central-solapur",
+                  "city": "solapur"
+                },
+                "uniqueId": "e51e6528-4859-48c8-8fed-e84c17dc2d76",
+                "cloudinaryImageId": "xwo40l4rcagje2a7vpph",
+                "locality": "Sidheshwar Peth",
+                "areaName": "Railway Lines",
+                "costForTwo": "35000",
+                "costForTwoMessage": "₹350 for two",
+                "cuisines": [
+                  "Bakery",
+                  "Desserts"
+                ],
+                "avgRating": 4.4,
+                "veg": true,
+                "feeDetails": {
+                  "restaurantId": "112367",
+                  "fees": [
+                    {
+                      
+                    }
+                  ]
+                },
+                "parentId": "48536",
+                "avgRatingString": "4.4",
+                "totalRatingsString": "1.2K+ ratings",
+                "sla": {
+                  "restaurantId": "112367",
+                  "deliveryTime": 18,
+                  "minDeliveryTime": 15,
+                  "maxDeliveryTime": 20,
+                  "lastMileTravel": 1.6,
+                  "serviceability": "SERVICEABLE",
+                  "stressFactor": 1,
+                  "rainMode": "RAIN_MODE_NONE",
+                  "longDistance": "LONG_DISTANCE_NOT_LONG_DISTANCE",
+                  "zoneId": 1034,
+                  "slaString": "15-20 MINS",
+                  "lastMileTravelString": "1.6 km",
+                  "iconType": "ICON_TYPE_EMPTY"
+                },
+                "availability": {
+                  "nextCloseTime": "2025-03-15 21:30:00",
+                  "visibility": true,
+                  "opened": true,
+                  "restaurantClosedMeta": {
+                    
+                  }
+                },
+                "aggregatedDiscountInfo": {
+                  "header": "15% off",
+                  "shortDescriptionList": [
+                    {
+                      "meta": "15% off | Use TRYNEW",
+                      "discountType": "Percentage",
+                      "operationType": "RESTAURANT"
+                    },
+                    {
+                      "discountType": "Percentage",
+                      "operationType": "RESTAURANT"
+                    }
+                  ],
+                  "descriptionList": [
+                    {
+                      "meta": "15% off up to ₹45 | Use code TRYNEW",
+                      "discountType": "Percentage",
+                      "operationType": "RESTAURANT"
+                    },
+                    {
+                      "meta": "20% off upto ₹150|Use AMEXCORP Above ₹699",
+                      "discountType": "Percentage",
+                      "operationType": "RESTAURANT"
+                    }
+                  ],
+                  "visible": true
+                },
+                "badges": {
+                  
+                },
+                "slugString": "bombay-bakery-and-cake-gallery-railway-lines-solapur-central-solapur",
+                "isOpen": true,
+                "labels": [
+                  {
+                    "title": "Timings",
+                    "message": "null"
+                  },
+                  {
+                    "title": "Address",
+                    "message": "103 Railway line near mayor banglow Solapur"
+                  },
+                  {
+                    "title": "Cuisines",
+                    "message": "Bakery,Desserts"
+                  }
+                ],
+                "totalRatings": 1200,
+                "aggregatedDiscountInfoV2": {
+                  "header": "15% off",
+                  "shortDescriptionList": [
+                    {
+                      "meta": "15% off | Use TRYNEW",
+                      "discountType": "Percentage",
+                      "operationType": "RESTAURANT"
+                    },
+                    {
+                      "discountType": "Percentage",
+                      "operationType": "RESTAURANT"
+                    }
+                  ],
+                  "descriptionList": [
+                    {
+                      "meta": "15% off up to ₹45 | Use code TRYNEW",
+                      "discountType": "Percentage",
+                      "operationType": "RESTAURANT"
+                    },
+                    {
+                      "meta": "20% off upto ₹150|Use AMEXCORP Above ₹699",
+                      "discountType": "Percentage",
+                      "operationType": "RESTAURANT"
+                    }
+                  ],
+                  "couponDetailsCta": "View coupon details"
+                },
+                "type": "F",
+                "headerBanner": {
+                  "url": "swiggy://webview?is_external=false&webview_url=https://www.swiggy.com/restaurant-info/112367"
+                },
+                "ratingSlab": "RATING_SLAB_5",
+                "orderabilityCommunication": {
+                  "title": {
+                    
+                  },
+                  "subTitle": {
+                    
+                  },
+                  "message": {
+                    
+                  },
+                  "customIcon": {
+                    
+                  },
+                  "commsStyling": {
+                    
+                  }
+                },
+                "hasBestsellerItems": true,
+                "cartOrderabilityNudgeBanner": {
+                  "parameters": {
+                    
+                  },
+                  "presentation": {
+                    
+                  }
+                },
+                "latLong": "17.6663738,75.8974881",
+                "backgroundImageOverlayInfo": {
+                  
+                },
+                "featuredSectionInfo": {
+                  
+                },
+                "hasBoltItems": true
+              },
+              "analytics": {
+                
+              }
+            },
+            "relevance": {
+              "type": "RELEVANCE_TYPE_CHECK_ORDERABILITY_ON_ITEM_ADD",
+              "sectionId": "POP_UP_CROUTON_MENU"
+            }
+          }
+        },
+        {
+          "card": {
+            "card": {
+              "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.GridWidget",
+              "layout": {
+                "rows": 1,
+                "columns": 5,
+                "horizontalScrollEnabled": true,
+                "itemSpacing": 12,
+                "lineSpacing": 10,
+                "widgetPadding": {
+                  
+                },
+                "containerStyle": {
+                  "containerPadding": {
+                    "left": 10,
+                    "right": 10,
+                    "bottom": 16
+                  }
+                },
+                "scrollBar": {
+                  
+                }
+              },
+              "id": "offerCollectionWidget_UX4",
+              "gridElements": {
+                "infoWithStyle": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.OfferInfoWithStyle",
+                  "offers": [
+                    {
+                      "info": {
+                        "header": "15% OFF UPTO ₹45",
+                        "offerTagColor": "#E46D47",
+                        "offerIds": [
+                          "ce53952e-2e45-42c2-a509-0b479c564ff0"
+                        ],
+                        "expiryTime": "1970-01-01T00:00:00Z",
+                        "couponCode": "USE TRYNEW",
+                        "description": "ABOVE ₹149",
+                        "offerType": "offers",
+                        "restId": "112367",
+                        "offerLogo": "offers/generic",
+                        "descriptionTextColor": "#7302060C",
+                        "primaryDescription": "USE TRYNEW"
+                      },
+                      "cta": {
+                        "type": "OFFER_HALF_CARD"
+                      }
+                    },
+                    {
+                      "info": {
+                        "header": "20% OFF UPTO ₹150",
+                        "offerTagColor": "#E46D47",
+                        "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2025/3/5/b13ec064-4e06-4fbe-a5a5-7e13bb2f5757_AMEXMenuLogo.png",
+                        "offerIds": [
+                          "31782a08-64d1-41e6-8797-fa951b252932"
+                        ],
+                        "expiryTime": "1970-01-01T00:00:00Z",
+                        "couponCode": "USE AMEXCORP",
+                        "description": "ABOVE ₹699",
+                        "offerType": "offers",
+                        "restId": "112367",
+                        "offerLogo": "MARKETING_BANNERS/IMAGES/OFFERS/2025/3/5/b13ec064-4e06-4fbe-a5a5-7e13bb2f5757_AMEXMenuLogo.png",
+                        "descriptionTextColor": "#7302060C",
+                        "primaryDescription": "USE AMEXCORP"
+                      },
+                      "cta": {
+                        "type": "OFFER_HALF_CARD"
+                      }
+                    },
+                    {
+                      "info": {
+                        "header": "15% OFF UPTO ₹125",
+                        "offerTagColor": "#E46D47",
+                        "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2025/3/12/73959cd9-19f7-4c6d-a2ef-6440aee76fa1_RBLMenuVisibilityLogo.png",
+                        "offerIds": [
+                          "9f6aca08-12cd-410b-8e46-c361f7dddfd9"
+                        ],
+                        "expiryTime": "1970-01-01T00:00:00Z",
+                        "couponCode": "USE RBLCC125",
+                        "description": "ABOVE ₹599",
+                        "offerType": "offers",
+                        "restId": "112367",
+                        "offerLogo": "MARKETING_BANNERS/IMAGES/OFFERS/2025/3/12/73959cd9-19f7-4c6d-a2ef-6440aee76fa1_RBLMenuVisibilityLogo.png",
+                        "descriptionTextColor": "#7302060C",
+                        "primaryDescription": "USE RBLCC125"
+                      },
+                      "cta": {
+                        "type": "OFFER_HALF_CARD"
+                      }
+                    },
+                    {
+                      "info": {
+                        "header": "10% OFF UPTO ₹150",
+                        "offerTagColor": "#E46D47",
+                        "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2025/2/28/1f7ef1c1-729c-4fbd-a62c-9e29bfc1f179_HSBC.png",
+                        "offerIds": [
+                          "45b1b8bc-7add-4110-aa16-bccc970eed04"
+                        ],
+                        "expiryTime": "1970-01-01T00:00:00Z",
+                        "couponCode": "USE HSBCFEST",
+                        "description": "ABOVE ₹499",
+                        "offerType": "offers",
+                        "restId": "112367",
+                        "offerLogo": "MARKETING_BANNERS/IMAGES/OFFERS/2025/2/28/1f7ef1c1-729c-4fbd-a62c-9e29bfc1f179_HSBC.png",
+                        "descriptionTextColor": "#7302060C",
+                        "primaryDescription": "USE HSBCFEST"
+                      },
+                      "cta": {
+                        "type": "OFFER_HALF_CARD"
+                      }
+                    },
+                    {
+                      "info": {
+                        "header": "FLAT ₹50 OFF",
+                        "offerTagColor": "#E46D47",
+                        "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2025/2/28/cafb7754-5e10-4b6a-b64a-9513212c55da_ICICIMenuLogo.png",
+                        "offerIds": [
+                          "2b03dc21-9c3e-4a8f-81e1-d4a6e91daa78"
+                        ],
+                        "expiryTime": "1970-01-01T00:00:00Z",
+                        "couponCode": "NO CODE REQUIRED",
+                        "description": "ABOVE ₹599",
+                        "offerType": "offers",
+                        "restId": "112367",
+                        "offerLogo": "MARKETING_BANNERS/IMAGES/OFFERS/2025/2/28/cafb7754-5e10-4b6a-b64a-9513212c55da_ICICIMenuLogo.png",
+                        "descriptionTextColor": "#7302060C",
+                        "primaryDescription": "NO CODE REQUIRED"
+                      },
+                      "cta": {
+                        "type": "OFFER_HALF_CARD"
+                      }
+                    }
+                  ],
+                  "habitMilestoneInfo": {
+                    "callout": {
+                      
+                    }
+                  },
+                  "loyaltyDiscoverPresentationInfo": {
+                    "logoCtx": {
+                      
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "groupedCard": {
+            "cardGroupMap": {
+              "REGULAR": {
+                "cards": [
+                  {
+                    "card": {
+                      "card": {
+                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.MenuVegFilterAndBadge",
+                        "isPureVeg": true,
+                        "badges": {
+                          
+                        },
+                        "vegOnlyDetails": {
+                          "imageId": "AutoVegOnly_qkjowj",
+                          "title": "Showing only vegetarian options.",
+                          "description": "Tap on the VEG ONLY button to turn off the setting"
+                        },
+                        "topRatedFilter": {
+                          "attributes": {
+                            "displayText": "Ratings 4.0+"
+                          }
+                        },
+                        "kidsCategoryFilter": {
+                          "attributes": {
+                            "displayText": "Kids Favourites",
+                            "tooltip": {
+                              "enabled": true,
+                              "displayText": "Kids Favourites Filter applied. Remove this filter to see the full Menu."
+                            }
+                          }
+                        },
+                        "vegFilter": {
+                          "attributes": {
+                            "displayText": "VEG"
+                          }
+                        },
+                        "nonvegFilter": {
+                          "attributes": {
+                            "displayText": "NONVEG"
+                          }
+                        },
+                        "bolt": {
+                          "attributes": {
+                            "displayText": "10 Mins Delivery",
+                            "displayImage": "bolt/bolt_filter_image_final.png",
+                            "unselectedDisplayImage": "bolt/bolt_filter_image_final.png"
+                          }
+                        }
+                      },
+                      "relevance": {
+                        "type": "RELEVANCE_TYPE_ON_MENU_FILTER_TOGGLED",
+                        "sectionId": "MENU_FILTER_TOGGLE"
+                      }
+                    }
+                  },
+                  {
+                    "card": {
+                      "card": {
+                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.MenuCarousel",
+                        "title": "Top Picks",
+                        "carousel": [
+                          {
+                            "type": "TopCarousel",
+                            "subtype": "image",
+                            "bannerId": "2234373",
+                            "creativeId": "TopPicks2024/127487622A.png",
+                            "title": "Butterscotch Cake [500 grams]",
+                            "description": " ",
+                            "fontColor": "#FFFFFF",
+                            "dish": {
+                              "info": {
+                                "id": "127487622",
+                                "name": "Butterscotch Cake [500 grams]",
+                                "category": "Cakes",
+                                "description": "Indulge in layers of moist cake infused with rich butterscotch flavors, creating a heavenly treat for cake enthusiasts.",
+                                "imageId": "5dcae5b6f54ad03fe19b6609945e30a3",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "price": 40800,
+                                "variants": {
+                                  
+                                },
+                                "variantsV2": {
+                                  
+                                },
+                                "itemAttribute": {
+                                  "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                  "text": "Bestseller",
+                                  "textColor": "#ffffff",
+                                  "topBackgroundColor": "#d53d4c",
+                                  "bottomBackgroundColor": "#b02331"
+                                },
+                                "itemBadge": {
+                                  
+                                },
+                                "badgesV2": {
+                                  
+                                },
+                                "isBestseller": true
+                              },
+                              "analytics": {
+                                
+                              },
+                              "hideRestaurantDetails": true
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "card": {
+                      "card": {
+                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                        "title": "Recommended",
+                        "itemCards": [
+                          {
+                            "card": {
+                              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                              "info": {
+                                "id": "127487622",
+                                "name": "Butterscotch Cake [500 grams]",
+                                "category": "Cakes",
+                                "description": "Indulge in layers of moist cake infused with rich butterscotch flavors, creating a heavenly treat for cake enthusiasts.",
+                                "imageId": "5dcae5b6f54ad03fe19b6609945e30a3",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "price": 40800,
+                                "variants": {
+                                  
+                                },
+                                "variantsV2": {
+                                  
+                                },
+                                "itemAttribute": {
+                                  "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                  "text": "Bestseller",
+                                  "textColor": "#ffffff",
+                                  "topBackgroundColor": "#d53d4c",
+                                  "bottomBackgroundColor": "#b02331"
+                                },
+                                "showImage": true,
+                                "itemBadge": {
+                                  
+                                },
+                                "badgesV2": {
+                                  
+                                },
+                                "isBestseller": true,
+                                "ratings": {
+                                  "aggregatedRating": {
+                                    "rating": "4.4",
+                                    "ratingCount": "28 ratings",
+                                    "ratingCountV2": "28"
+                                  }
+                                }
+                              },
+                              "analytics": {
+                                
+                              },
+                              "hideRestaurantDetails": true
+                            }
+                          },
+                          {
+                            "card": {
+                              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                              "info": {
+                                "id": "127487629",
+                                "name": "Pineapple Cake [500 grams]",
+                                "category": "Cakes",
+                                "description": "A delectable and fruity treat, this pineapple cake is a delightful dessert choice for any occasion.",
+                                "imageId": "860cffb1e2167c59e7db1b50ddce6151",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "price": 36000,
+                                "variants": {
+                                  
+                                },
+                                "variantsV2": {
+                                  
+                                },
+                                "itemAttribute": {
+                                  "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                  "text": "Bestseller",
+                                  "textColor": "#ffffff",
+                                  "topBackgroundColor": "#d53d4c",
+                                  "bottomBackgroundColor": "#b02331"
+                                },
+                                "showImage": true,
+                                "itemBadge": {
+                                  
+                                },
+                                "badgesV2": {
+                                  
+                                },
+                                "isBestseller": true,
+                                "ratings": {
+                                  "aggregatedRating": {
+                                    "rating": "4.5",
+                                    "ratingCount": "18 ratings",
+                                    "ratingCountV2": "18"
+                                  }
+                                }
+                              },
+                              "analytics": {
+                                
+                              },
+                              "hideRestaurantDetails": true
+                            }
+                          },
+                          {
+                            "card": {
+                              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                              "info": {
+                                "id": "127487633",
+                                "name": "Vanilla Cake [500 grams]",
+                                "category": "Cakes",
+                                "description": "Indulge in the sweet and heavenly flavor of this moist Vanilla Cake, a delightful treat for any cake lover's palate.",
+                                "imageId": "e33fb15c5a701bcf16b2354f4cfff962",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "price": 39600,
+                                "variants": {
+                                  
+                                },
+                                "variantsV2": {
+                                  
+                                },
+                                "itemAttribute": {
+                                  "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                  
+                                },
+                                "showImage": true,
+                                "itemBadge": {
+                                  
+                                },
+                                "badgesV2": {
+                                  
+                                },
+                                "ratings": {
+                                  "aggregatedRating": {
+                                    
+                                  }
+                                }
+                              },
+                              "analytics": {
+                                
+                              },
+                              "hideRestaurantDetails": true
+                            }
+                          },
+                          {
+                            "card": {
+                              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                              "info": {
+                                "id": "127487643",
+                                "name": "Vanilla Choco Cake [500 grams]",
+                                "category": "Cakes",
+                                "description": "Indulge in the lusciousness of a moist vanilla chocolate cake that will satisfy your sweet cravings.",
+                                "imageId": "598b16d7c657a180967f8ed8d8fac2dd",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "price": 37200,
+                                "variants": {
+                                  
+                                },
+                                "variantsV2": {
+                                  
+                                },
+                                "itemAttribute": {
+                                  "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                  "text": "Bestseller",
+                                  "textColor": "#ffffff",
+                                  "topBackgroundColor": "#d53d4c",
+                                  "bottomBackgroundColor": "#b02331"
+                                },
+                                "showImage": true,
+                                "itemBadge": {
+                                  
+                                },
+                                "badgesV2": {
+                                  
+                                },
+                                "isBestseller": true,
+                                "ratings": {
+                                  "aggregatedRating": {
+                                    
+                                  }
+                                }
+                              },
+                              "analytics": {
+                                
+                              },
+                              "hideRestaurantDetails": true
+                            }
+                          },
+                          {
+                            "card": {
+                              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                              "info": {
+                                "id": "143395371",
+                                "name": "Butterscotch Cake [500 grams]                                                                                                ",
+                                "category": "Fathers Day Special",
+                                "description": "Indulge in layers of moist cake infused with rich butterscotch flavors, creating a heavenly treat for cake enthusiasts.",
+                                "imageId": "5dcae5b6f54ad03fe19b6609945e30a3",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "price": 40800,
+                                "variants": {
+                                  
+                                },
+                                "variantsV2": {
+                                  
+                                },
+                                "itemAttribute": {
+                                  "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                  "text": "Bestseller",
+                                  "textColor": "#ffffff",
+                                  "topBackgroundColor": "#d53d4c",
+                                  "bottomBackgroundColor": "#b02331"
+                                },
+                                "showImage": true,
+                                "itemBadge": {
+                                  
+                                },
+                                "badgesV2": {
+                                  
+                                },
+                                "isBestseller": true,
+                                "ratings": {
+                                  "aggregatedRating": {
+                                    "rating": "4.4",
+                                    "ratingCount": "28 ratings",
+                                    "ratingCountV2": "28"
+                                  }
+                                }
+                              },
+                              "analytics": {
+                                
+                              },
+                              "hideRestaurantDetails": true
+                            }
+                          },
+                          {
+                            "card": {
+                              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                              "info": {
+                                "id": "143395308",
+                                "name": "Vanilla Choco Cake [500 grams]                                                                                                ",
+                                "category": "Fathers Day Special",
+                                "description": "Indulge in the lusciousness of a moist vanilla chocolate cake that will satisfy your sweet cravings.",
+                                "imageId": "598b16d7c657a180967f8ed8d8fac2dd",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "price": 37200,
+                                "variants": {
+                                  
+                                },
+                                "variantsV2": {
+                                  
+                                },
+                                "itemAttribute": {
+                                  "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                  
+                                },
+                                "showImage": true,
+                                "itemBadge": {
+                                  
+                                },
+                                "badgesV2": {
+                                  
+                                },
+                                "ratings": {
+                                  "aggregatedRating": {
+                                    
+                                  }
+                                }
+                              },
+                              "analytics": {
+                                
+                              },
+                              "hideRestaurantDetails": true
+                            }
+                          },
+                          {
+                            "card": {
+                              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                              "info": {
+                                "id": "143395271",
+                                "name": "Pineapple Cake [500 grams]                                                                                                ",
+                                "category": "Fathers Day Special",
+                                "description": "A delectable and fruity treat, this pineapple cake is a delightful dessert choice for any occasion.",
+                                "imageId": "860cffb1e2167c59e7db1b50ddce6151",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "price": 36000,
+                                "variants": {
+                                  
+                                },
+                                "variantsV2": {
+                                  
+                                },
+                                "itemAttribute": {
+                                  "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                  
+                                },
+                                "showImage": true,
+                                "itemBadge": {
+                                  
+                                },
+                                "badgesV2": {
+                                  
+                                },
+                                "ratings": {
+                                  "aggregatedRating": {
+                                    
+                                  }
+                                }
+                              },
+                              "analytics": {
+                                
+                              },
+                              "hideRestaurantDetails": true
+                            }
+                          },
+                          {
+                            "card": {
+                              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                              "info": {
+                                "id": "143395340",
+                                "name": "Vanilla Cake [500 grams]                                                                                                ",
+                                "category": "Fathers Day Special",
+                                "description": "Indulge in the sweet and heavenly flavor of this moist Vanilla Cake, a delightful treat for any cake lover's palate.",
+                                "imageId": "e33fb15c5a701bcf16b2354f4cfff962",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "price": 39600,
+                                "variants": {
+                                  
+                                },
+                                "variantsV2": {
+                                  
+                                },
+                                "itemAttribute": {
+                                  "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                  
+                                },
+                                "showImage": true,
+                                "itemBadge": {
+                                  
+                                },
+                                "badgesV2": {
+                                  
+                                },
+                                "ratings": {
+                                  "aggregatedRating": {
+                                    
+                                  }
+                                }
+                              },
+                              "analytics": {
+                                
+                              },
+                              "hideRestaurantDetails": true
+                            }
+                          }
+                        ],
+                        "type": "CATEGORY_TYPE_RECOMMENDED",
+                        "subtitleSuffix": {
+                          
+                        },
+                        "categoryId": "-1"
+                      }
+                    }
+                  },
+                  {
+                    "card": {
+                      "card": {
+                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                        "title": "Cakes",
+                        "itemCards": [
+                          {
+                            "card": {
+                              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                              "info": {
+                                "id": "127487622",
+                                "name": "Butterscotch Cake [500 grams]",
+                                "category": "Cakes",
+                                "description": "Indulge in layers of moist cake infused with rich butterscotch flavors, creating a heavenly treat for cake enthusiasts.",
+                                "imageId": "5dcae5b6f54ad03fe19b6609945e30a3",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "price": 40800,
+                                "variants": {
+                                  
+                                },
+                                "variantsV2": {
+                                  
+                                },
+                                "itemAttribute": {
+                                  "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                  "text": "Bestseller",
+                                  "textColor": "#ffffff",
+                                  "topBackgroundColor": "#d53d4c",
+                                  "bottomBackgroundColor": "#b02331"
+                                },
+                                "type": "ITEM",
+                                "itemBadge": {
+                                  
+                                },
+                                "badgesV2": {
+                                  
+                                },
+                                "isBestseller": true,
+                                "ratings": {
+                                  "aggregatedRating": {
+                                    "rating": "4.4",
+                                    "ratingCount": "28 ratings",
+                                    "ratingCountV2": "28"
+                                  }
+                                },
+                                "isBolt": true,
+                                "boltImageId": "bolt/bolt-tag/bolt_menu_tag.png"
+                              },
+                              "analytics": {
+                                
+                              },
+                              "hideRestaurantDetails": true
+                            }
+                          },
+                          {
+                            "card": {
+                              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                              "info": {
+                                "id": "127487629",
+                                "name": "Pineapple Cake [500 grams]",
+                                "category": "Cakes",
+                                "description": "A delectable and fruity treat, this pineapple cake is a delightful dessert choice for any occasion.",
+                                "imageId": "860cffb1e2167c59e7db1b50ddce6151",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "price": 36000,
+                                "variants": {
+                                  
+                                },
+                                "variantsV2": {
+                                  
+                                },
+                                "itemAttribute": {
+                                  "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                  "text": "Bestseller",
+                                  "textColor": "#ffffff",
+                                  "topBackgroundColor": "#d53d4c",
+                                  "bottomBackgroundColor": "#b02331"
+                                },
+                                "type": "ITEM",
+                                "itemBadge": {
+                                  
+                                },
+                                "badgesV2": {
+                                  
+                                },
+                                "isBestseller": true,
+                                "ratings": {
+                                  "aggregatedRating": {
+                                    "rating": "4.5",
+                                    "ratingCount": "18 ratings",
+                                    "ratingCountV2": "18"
+                                  }
+                                },
+                                "isBolt": true,
+                                "boltImageId": "bolt/bolt-tag/bolt_menu_tag.png"
+                              },
+                              "analytics": {
+                                
+                              },
+                              "hideRestaurantDetails": true
+                            }
+                          },
+                          {
+                            "card": {
+                              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                              "info": {
+                                "id": "127487633",
+                                "name": "Vanilla Cake [500 grams]",
+                                "category": "Cakes",
+                                "description": "Indulge in the sweet and heavenly flavor of this moist Vanilla Cake, a delightful treat for any cake lover's palate.",
+                                "imageId": "e33fb15c5a701bcf16b2354f4cfff962",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "price": 39600,
+                                "variants": {
+                                  
+                                },
+                                "variantsV2": {
+                                  
+                                },
+                                "itemAttribute": {
+                                  "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                  
+                                },
+                                "type": "ITEM",
+                                "itemBadge": {
+                                  
+                                },
+                                "badgesV2": {
+                                  
+                                },
+                                "ratings": {
+                                  "aggregatedRating": {
+                                    
+                                  }
+                                },
+                                "isBolt": true,
+                                "boltImageId": "bolt/bolt-tag/bolt_menu_tag.png"
+                              },
+                              "analytics": {
+                                
+                              },
+                              "hideRestaurantDetails": true
+                            }
+                          },
+                          {
+                            "card": {
+                              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                              "info": {
+                                "id": "127487643",
+                                "name": "Vanilla Choco Cake [500 grams]",
+                                "category": "Cakes",
+                                "description": "Indulge in the lusciousness of a moist vanilla chocolate cake that will satisfy your sweet cravings.",
+                                "imageId": "598b16d7c657a180967f8ed8d8fac2dd",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "price": 37200,
+                                "variants": {
+                                  
+                                },
+                                "variantsV2": {
+                                  
+                                },
+                                "itemAttribute": {
+                                  "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                  "text": "Bestseller",
+                                  "textColor": "#ffffff",
+                                  "topBackgroundColor": "#d53d4c",
+                                  "bottomBackgroundColor": "#b02331"
+                                },
+                                "type": "ITEM",
+                                "itemBadge": {
+                                  
+                                },
+                                "badgesV2": {
+                                  
+                                },
+                                "isBestseller": true,
+                                "ratings": {
+                                  "aggregatedRating": {
+                                    
+                                  }
+                                },
+                                "isBolt": true,
+                                "boltImageId": "bolt/bolt-tag/bolt_menu_tag.png"
+                              },
+                              "analytics": {
+                                
+                              },
+                              "hideRestaurantDetails": true
+                            }
+                          },
+                          {
+                            "card": {
+                              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                              "info": {
+                                "id": "127487644",
+                                "name": "Blue Currant Cake [500 grams]",
+                                "category": "Cakes",
+                                "description": "Indulge in a mouthwatering cake bursting with the sweet and tangy flavors of blue currants.",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "price": 37200,
+                                "variants": {
+                                  
+                                },
+                                "variantsV2": {
+                                  
+                                },
+                                "itemAttribute": {
+                                  "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                  
+                                },
+                                "type": "ITEM",
+                                "itemBadge": {
+                                  
+                                },
+                                "badgesV2": {
+                                  
+                                },
+                                "ratings": {
+                                  "aggregatedRating": {
+                                    "rating": "4.0",
+                                    "ratingCount": "5 ratings",
+                                    "ratingCountV2": "5"
+                                  }
+                                }
+                              },
+                              "analytics": {
+                                
+                              },
+                              "hideRestaurantDetails": true
+                            }
+                          }
+                        ],
+                        "subtitleSuffix": {
+                          
+                        },
+                        "image": "5dcae5b6f54ad03fe19b6609945e30a3",
+                        "categoryId": "42110372"
+                      }
+                    }
+                  },
+                  {
+                    "card": {
+                      "card": {
+                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                        "title": "Fathers Day Special",
+                        "itemCards": [
+                          {
+                            "card": {
+                              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                              "info": {
+                                "id": "143395412",
+                                "name": "Chocolate Crunchy Cake [500 grams]                                                                                                ",
+                                "category": "Fathers Day Special",
+                                "description": "Indulge in the irresistible chocolatey goodness of this crunchy cake that is sure to satisfy your sweet tooth.",
+                                "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/1/14/0b380e17-8fe8-4722-b7a7-b6b22da863c2_c68f9ce0-0230-4931-90aa-9079f0dcca62.JPG",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "price": 40800,
+                                "variants": {
+                                  
+                                },
+                                "variantsV2": {
+                                  
+                                },
+                                "itemAttribute": {
+                                  "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                  "text": "Bestseller",
+                                  "textColor": "#ffffff",
+                                  "topBackgroundColor": "#d53d4c",
+                                  "bottomBackgroundColor": "#b02331"
+                                },
+                                "type": "ITEM",
+                                "itemBadge": {
+                                  
+                                },
+                                "badgesV2": {
+                                  
+                                },
+                                "isBestseller": true,
+                                "ratings": {
+                                  "aggregatedRating": {
+                                    "rating": "4.0",
+                                    "ratingCount": "13 ratings",
+                                    "ratingCountV2": "13"
+                                  }
+                                },
+                                "isBolt": true,
+                                "boltImageId": "bolt/bolt-tag/bolt_menu_tag.png"
+                              },
+                              "analytics": {
+                                
+                              },
+                              "hideRestaurantDetails": true
+                            }
+                          },
+                          {
+                            "card": {
+                              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                              "info": {
+                                "id": "143395429",
+                                "name": "Chocolate Crunch Cake [500 grams]                                                                                                ",
+                                "category": "Fathers Day Special",
+                                "description": "Indulge in a delectable chocolate creation that marries a delightful crunch with rich, velvety flavors.",
+                                "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/1/14/6bc7a7b4-f944-4d0f-be6b-f72934204c0c_25245779-4a52-435a-bc53-415d9427de35.JPG",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "price": 39600,
+                                "variants": {
+                                  
+                                },
+                                "variantsV2": {
+                                  
+                                },
+                                "itemAttribute": {
+                                  "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                  "text": "Bestseller",
+                                  "textColor": "#ffffff",
+                                  "topBackgroundColor": "#d53d4c",
+                                  "bottomBackgroundColor": "#b02331"
+                                },
+                                "type": "ITEM",
+                                "itemBadge": {
+                                  
+                                },
+                                "badgesV2": {
+                                  
+                                },
+                                "isBestseller": true,
+                                "ratings": {
+                                  "aggregatedRating": {
+                                    "rating": "4.6",
+                                    "ratingCount": "9 ratings",
+                                    "ratingCountV2": "9"
+                                  }
+                                },
+                                "isBolt": true,
+                                "boltImageId": "bolt/bolt-tag/bolt_menu_tag.png"
+                              },
+                              "analytics": {
+                                
+                              },
+                              "hideRestaurantDetails": true
+                            }
+                          },
+                          {
+                            "card": {
+                              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                              "info": {
+                                "id": "143395326",
+                                "name": "Rasmalai Cake [500 grams]                                                                                                ",
+                                "category": "Fathers Day Special",
+                                "description": "A delectable fusion of traditional Indian flavors and the classic cake, showcasing the rich and creamy essence of Rasmalai within every bite.",
+                                "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/1/14/d93c205b-0cec-4e0f-a48d-d7adf497263c_7b5ce3a5-515c-4b26-bb2b-0ecd2a751bdf.JPG",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "price": 43200,
+                                "variants": {
+                                  
+                                },
+                                "variantsV2": {
+                                  
+                                },
+                                "itemAttribute": {
+                                  "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                  "text": "Bestseller",
+                                  "textColor": "#ffffff",
+                                  "topBackgroundColor": "#d53d4c",
+                                  "bottomBackgroundColor": "#b02331"
+                                },
+                                "type": "ITEM",
+                                "itemBadge": {
+                                  
+                                },
+                                "badgesV2": {
+                                  
+                                },
+                                "isBestseller": true,
+                                "ratings": {
+                                  "aggregatedRating": {
+                                    "rating": "4.3",
+                                    "ratingCount": "38 ratings",
+                                    "ratingCountV2": "38"
+                                  }
+                                },
+                                "isBolt": true,
+                                "boltImageId": "bolt/bolt-tag/bolt_menu_tag.png"
+                              },
+                              "analytics": {
+                                
+                              },
+                              "hideRestaurantDetails": true
+                            }
+                          },
+                          {
+                            "card": {
+                              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                              "info": {
+                                "id": "143395371",
+                                "name": "Butterscotch Cake [500 grams]                                                                                                ",
+                                "category": "Fathers Day Special",
+                                "description": "Indulge in layers of moist cake infused with rich butterscotch flavors, creating a heavenly treat for cake enthusiasts.",
+                                "imageId": "5dcae5b6f54ad03fe19b6609945e30a3",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "price": 40800,
+                                "variants": {
+                                  
+                                },
+                                "variantsV2": {
+                                  
+                                },
+                                "itemAttribute": {
+                                  "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                  "text": "Bestseller",
+                                  "textColor": "#ffffff",
+                                  "topBackgroundColor": "#d53d4c",
+                                  "bottomBackgroundColor": "#b02331"
+                                },
+                                "type": "ITEM",
+                                "itemBadge": {
+                                  
+                                },
+                                "badgesV2": {
+                                  
+                                },
+                                "isBestseller": true,
+                                "ratings": {
+                                  "aggregatedRating": {
+                                    "rating": "4.4",
+                                    "ratingCount": "28 ratings",
+                                    "ratingCountV2": "28"
+                                  }
+                                },
+                                "isBolt": true,
+                                "boltImageId": "bolt/bolt-tag/bolt_menu_tag.png"
+                              },
+                              "analytics": {
+                                
+                              },
+                              "hideRestaurantDetails": true
+                            }
+                          },
+                          {
+                            "card": {
+                              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                              "info": {
+                                "id": "143395398",
+                                "name": "Black Forest [ 500 Grams]                                                                                                ",
+                                "category": "Fathers Day Special",
+                                "description": "Indulge in a decadent and delightful treat with our luscious Black Forest cake.",
+                                "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/1/14/0f219eaf-d940-4b6c-8c6c-3c21299a8a8f_86208c57-6cbf-455c-ace8-0d0b4293b515.JPG",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "price": 33600,
+                                "variants": {
+                                  
+                                },
+                                "variantsV2": {
+                                  
+                                },
+                                "itemAttribute": {
+                                  "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                  "text": "Bestseller",
+                                  "textColor": "#ffffff",
+                                  "topBackgroundColor": "#d53d4c",
+                                  "bottomBackgroundColor": "#b02331"
+                                },
+                                "type": "ITEM",
+                                "itemBadge": {
+                                  
+                                },
+                                "badgesV2": {
+                                  
+                                },
+                                "isBestseller": true,
+                                "ratings": {
+                                  "aggregatedRating": {
+                                    "rating": "4.6",
+                                    "ratingCount": "35 ratings",
+                                    "ratingCountV2": "35"
+                                  }
+                                },
+                                "isBolt": true,
+                                "boltImageId": "bolt/bolt-tag/bolt_menu_tag.png"
+                              },
+                              "analytics": {
+                                
+                              },
+                              "hideRestaurantDetails": true
+                            }
+                          },
+                          {
+                            "card": {
+                              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                              "info": {
+                                "id": "143395385",
+                                "name": "Chocolate with Black and White Choco Chips Cake [500 grams]                                                                                                ",
+                                "category": "Fathers Day Special",
+                                "description": "Indulge in a delightful chocolate cake adorned with a blend of black and white choco chips.",
+                                "imageId": "rhvhp9zqqus67gx2tmcp",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "price": 39600,
+                                "variants": {
+                                  
+                                },
+                                "variantsV2": {
+                                  
+                                },
+                                "itemAttribute": {
+                                  "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                  "text": "Bestseller",
+                                  "textColor": "#ffffff",
+                                  "topBackgroundColor": "#d53d4c",
+                                  "bottomBackgroundColor": "#b02331"
+                                },
+                                "type": "ITEM",
+                                "itemBadge": {
+                                  
+                                },
+                                "badgesV2": {
+                                  
+                                },
+                                "isBestseller": true,
+                                "ratings": {
+                                  "aggregatedRating": {
+                                    "rating": "4.7",
+                                    "ratingCount": "7 ratings",
+                                    "ratingCountV2": "7"
+                                  }
+                                },
+                                "isBolt": true,
+                                "boltImageId": "bolt/bolt-tag/bolt_menu_tag.png"
+                              },
+                              "analytics": {
+                                
+                              },
+                              "hideRestaurantDetails": true
+                            }
+                          },
+                          {
+                            "card": {
+                              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                              "info": {
+                                "id": "143395290",
+                                "name": "White Chips Cake [500 grams]                                                                                                ",
+                                "category": "Fathers Day Special",
+                                "description": "A delightful and indulgent cake that combines the perfect balance of flavors and textures for a heavenly treat.",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "price": 40800,
+                                "variants": {
+                                  
+                                },
+                                "variantsV2": {
+                                  
+                                },
+                                "itemAttribute": {
+                                  "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                  
+                                },
+                                "type": "ITEM",
+                                "itemBadge": {
+                                  
+                                },
+                                "badgesV2": {
+                                  
+                                },
+                                "ratings": {
+                                  "aggregatedRating": {
+                                    
+                                  }
+                                },
+                                "isBolt": true,
+                                "boltImageId": "bolt/bolt-tag/bolt_menu_tag.png"
+                              },
+                              "analytics": {
+                                
+                              },
+                              "hideRestaurantDetails": true
+                            }
+                          },
+                          {
+                            "card": {
+                              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                              "info": {
+                                "id": "143395308",
+                                "name": "Vanilla Choco Cake [500 grams]                                                                                                ",
+                                "category": "Fathers Day Special",
+                                "description": "Indulge in the lusciousness of a moist vanilla chocolate cake that will satisfy your sweet cravings.",
+                                "imageId": "598b16d7c657a180967f8ed8d8fac2dd",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "price": 37200,
+                                "variants": {
+                                  
+                                },
+                                "variantsV2": {
+                                  
+                                },
+                                "itemAttribute": {
+                                  "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                  
+                                },
+                                "type": "ITEM",
+                                "itemBadge": {
+                                  
+                                },
+                                "badgesV2": {
+                                  
+                                },
+                                "ratings": {
+                                  "aggregatedRating": {
+                                    
+                                  }
+                                },
+                                "isBolt": true,
+                                "boltImageId": "bolt/bolt-tag/bolt_menu_tag.png"
+                              },
+                              "analytics": {
+                                
+                              },
+                              "hideRestaurantDetails": true
+                            }
+                          },
+                          {
+                            "card": {
+                              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                              "info": {
+                                "id": "143395271",
+                                "name": "Pineapple Cake [500 grams]                                                                                                ",
+                                "category": "Fathers Day Special",
+                                "description": "A delectable and fruity treat, this pineapple cake is a delightful dessert choice for any occasion.",
+                                "imageId": "860cffb1e2167c59e7db1b50ddce6151",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "price": 36000,
+                                "variants": {
+                                  
+                                },
+                                "variantsV2": {
+                                  
+                                },
+                                "itemAttribute": {
+                                  "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                  
+                                },
+                                "type": "ITEM",
+                                "itemBadge": {
+                                  
+                                },
+                                "badgesV2": {
+                                  
+                                },
+                                "ratings": {
+                                  "aggregatedRating": {
+                                    
+                                  }
+                                },
+                                "isBolt": true,
+                                "boltImageId": "bolt/bolt-tag/bolt_menu_tag.png"
+                              },
+                              "analytics": {
+                                
+                              },
+                              "hideRestaurantDetails": true
+                            }
+                          },
+                          {
+                            "card": {
+                              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                              "info": {
+                                "id": "143395340",
+                                "name": "Vanilla Cake [500 grams]                                                                                                ",
+                                "category": "Fathers Day Special",
+                                "description": "Indulge in the sweet and heavenly flavor of this moist Vanilla Cake, a delightful treat for any cake lover's palate.",
+                                "imageId": "e33fb15c5a701bcf16b2354f4cfff962",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "price": 39600,
+                                "variants": {
+                                  
+                                },
+                                "variantsV2": {
+                                  
+                                },
+                                "itemAttribute": {
+                                  "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                  
+                                },
+                                "type": "ITEM",
+                                "itemBadge": {
+                                  
+                                },
+                                "badgesV2": {
+                                  
+                                },
+                                "ratings": {
+                                  "aggregatedRating": {
+                                    
+                                  }
+                                }
+                              },
+                              "analytics": {
+                                
+                              },
+                              "hideRestaurantDetails": true
+                            }
+                          },
+                          {
+                            "card": {
+                              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                              "info": {
+                                "id": "143395354",
+                                "name": "Blue Currant Cake [500 grams]                                                                                                ",
+                                "category": "Fathers Day Special",
+                                "description": "Indulge in a mouthwatering cake bursting with the sweet and tangy flavors of blue currants.",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "price": 37200,
+                                "variants": {
+                                  
+                                },
+                                "variantsV2": {
+                                  
+                                },
+                                "itemAttribute": {
+                                  "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                  
+                                },
+                                "type": "ITEM",
+                                "itemBadge": {
+                                  
+                                },
+                                "badgesV2": {
+                                  
+                                },
+                                "ratings": {
+                                  "aggregatedRating": {
+                                    
+                                  }
+                                }
+                              },
+                              "analytics": {
+                                
+                              },
+                              "hideRestaurantDetails": true
+                            }
+                          }
+                        ],
+                        "subtitleSuffix": {
+                          
+                        },
+                        "image": "FOOD_CATALOG/IMAGES/CMS/2025/1/14/0b380e17-8fe8-4722-b7a7-b6b22da863c2_c68f9ce0-0230-4931-90aa-9079f0dcca62.JPG",
+                        "categoryId": "49569579"
+                      }
+                    }
+                  },
+                  {
+                    "card": {
+                      "card": {
+                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantLicenseInfo",
+                        "type": "FSSAI",
+                        "imageId": "fssai_final_edss9i",
+                        "text": [
+                          "License No. 11519041000257"
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "card": {
+                      "card": {
+                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantAddress",
+                        "name": "Bombay Bakery And Cake Gallery",
+                        "area": "Railway Lines",
+                        "completeAddress": "103 Railway line near mayor banglow Solapur"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "firstOffsetRequest": true,
+      "isQCLink": false
+    },
+    "tid": "d4831ecd-4b38-4c69-a1c4-e367b418a4f7",
+    "sid": "jh4f0802-2a78-4ed5-aaff-9ac7d9fc8168",
+    "deviceId": "ae48c84e-fd25-cd1d-3f38-4daa217aec4c",
+    "csrfToken": "gN1pW10wSJY4-w81LuJz2DA1pbonIo9SbFneK2ho"
+  }

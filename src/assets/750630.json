@@ -1,0 +1,1626 @@
+
+{
+    "statusCode": 0,
+    "data": {
+      "statusMessage": "done successfully",
+      "cards": [
+        {
+          "card": {
+            "card": {
+              "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.TextBoxV2",
+              "text": "Anna Idli",
+              "headerStyling": {
+                "textColor": "text_Highest_Emphasis",
+                "textVariant": "header_H3_Black"
+              }
+            }
+          }
+        },
+        {
+          "card": {
+            "card": {
+              "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.RestaurantBlTab",
+              "tabs": [
+                {
+                  "id": "Order Online",
+                  "title": "Order Online"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "card": {
+            "card": {
+              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+              "info": {
+                "id": "750630",
+                "name": "Anna Idli",
+                "city": "Solapur",
+                "slugs": {
+                  "restaurant": "anna-idli-central-solapur-central-solapur",
+                  "city": "solapur"
+                },
+                "uniqueId": "e51e6528-4859-48c8-8fed-e84c17dc2d76",
+                "cloudinaryImageId": "fca093fa246fbccd7b3074d71b11ab0f",
+                "locality": "Vaman Nagar",
+                "areaName": "Jule Solapur",
+                "costForTwo": "20000",
+                "costForTwoMessage": "₹200 for two",
+                "cuisines": [
+                  "South Indian"
+                ],
+                "avgRating": 4.2,
+                "veg": true,
+                "feeDetails": {
+                  "restaurantId": "750630",
+                  "fees": [
+                    {
+                      
+                    }
+                  ]
+                },
+                "parentId": "3790",
+                "avgRatingString": "4.2",
+                "totalRatingsString": "70 ratings",
+                "sla": {
+                  "restaurantId": "750630",
+                  "deliveryTime": 27,
+                  "minDeliveryTime": 25,
+                  "maxDeliveryTime": 30,
+                  "lastMileTravel": 4.2,
+                  "serviceability": "SERVICEABLE",
+                  "stressFactor": 1,
+                  "rainMode": "RAIN_MODE_NONE",
+                  "longDistance": "LONG_DISTANCE_NOT_LONG_DISTANCE",
+                  "zoneId": 1034,
+                  "slaString": "25-30 MINS",
+                  "lastMileTravelString": "4.2 km",
+                  "iconType": "ICON_TYPE_EMPTY"
+                },
+                "availability": {
+                  "nextOpenTimeMessage": "Opens next at 5:30 pm, today",
+                  "nextOpenTime": "2025-03-15 17:30:00",
+                  "visibility": true,
+                  "restaurantClosedMeta": {
+                    
+                  }
+                },
+                "aggregatedDiscountInfo": {
+                  "shortDescriptionList": [
+                    {
+                      "discountType": "Percentage",
+                      "operationType": "RESTAURANT"
+                    },
+                    {
+                      "discountType": "Percentage",
+                      "operationType": "RESTAURANT"
+                    }
+                  ],
+                  "descriptionList": [
+                    {
+                      "meta": "20% off upto ₹150|Use AMEXCORP Above ₹699",
+                      "discountType": "Percentage",
+                      "operationType": "RESTAURANT"
+                    },
+                    {
+                      "meta": "15% off upto ₹125|Use RBLCC125 Above ₹599",
+                      "discountType": "Percentage",
+                      "operationType": "RESTAURANT"
+                    }
+                  ],
+                  "visible": true
+                },
+                "badges": {
+                  
+                },
+                "slugString": "anna-idli-central-solapur-central-solapur",
+                "multiOutlet": true,
+                "labels": [
+                  {
+                    "title": "Timings",
+                    "message": "null"
+                  },
+                  {
+                    "title": "Address",
+                    "message": "PLOT NO 23/24 SHOP NO 1-8 VAMAN NAGAR JULE SOLAPUR SOLAPUR MUNICIPAL CORP ZONE 4 SOLAPUR MAHARASHTRA"
+                  },
+                  {
+                    "title": "Cuisines",
+                    "message": "South Indian"
+                  }
+                ],
+                "totalRatings": 70,
+                "aggregatedDiscountInfoV2": {
+                  "shortDescriptionList": [
+                    {
+                      "discountType": "Percentage",
+                      "operationType": "RESTAURANT"
+                    },
+                    {
+                      "discountType": "Percentage",
+                      "operationType": "RESTAURANT"
+                    }
+                  ],
+                  "descriptionList": [
+                    {
+                      "meta": "20% off upto ₹150|Use AMEXCORP Above ₹699",
+                      "discountType": "Percentage",
+                      "operationType": "RESTAURANT"
+                    },
+                    {
+                      "meta": "15% off upto ₹125|Use RBLCC125 Above ₹599",
+                      "discountType": "Percentage",
+                      "operationType": "RESTAURANT"
+                    }
+                  ],
+                  "couponDetailsCta": "View coupon details"
+                },
+                "type": "F",
+                "headerBanner": {
+                  "url": "swiggy://webview?is_external=false&webview_url=https://www.swiggy.com/restaurant-info/750630"
+                },
+                "ratingSlab": "RATING_SLAB_5",
+                "availabilityServiceabilityMessage": "Currently closed for delivery. Opens next at 5:30 pm, today",
+                "orderabilityCommunication": {
+                  "title": {
+                    "text": "Currently"
+                  },
+                  "subTitle": {
+                    "text": "CLOSED"
+                  },
+                  "message": {
+                    "text": "Uh-oh! Outlet is not accepting orders at the moment. They should be back by 5:30 PM",
+                    "textColour": "primary"
+                  },
+                  "customIcon": {
+                    "bgGradientColorStart": "#EB8322",
+                    "bgGradientColorEnd": "#EE5803"
+                  },
+                  "commsStyling": {
+                    
+                  }
+                },
+                "hasBestsellerItems": true,
+                "nearestOutletNudge": {
+                  "nearestOutletInfo": {
+                    "siblingOutlet": {
+                      "id": "751970",
+                      "city": "0",
+                      "slugs": {
+                        
+                      },
+                      "areaName": "Navi Peth",
+                      "costForTwo": "0",
+                      "feeDetails": {
+                        
+                      },
+                      "sla": {
+                        "deliveryTime": 20,
+                        "lastMileTravel": 2.5,
+                        "slaString": "20 MINS",
+                        "lastMileTravelString": "2.5 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "restaurantClosedMeta": {
+                          
+                        }
+                      },
+                      "aggregatedDiscountInfo": {
+                        "visible": true
+                      },
+                      "badges": {
+                        
+                      },
+                      "aggregatedDiscountInfoV2": {
+                        "visible": true
+                      },
+                      "availabilityServiceabilityMessage": "Temporarily closed for delivery",
+                      "cartOrderabilityNudgeBanner": {
+                        "parameters": {
+                          
+                        },
+                        "presentation": {
+                          
+                        }
+                      },
+                      "featuredSectionInfo": {
+                        
+                      }
+                    }
+                  },
+                  "nearestOutletComms": {
+                    "title": {
+                      "text": "Don't worry! Try our outlet that's delivering"
+                    },
+                    "subTitle": {
+                      "text": "Switch to the fastest alternate"
+                    }
+                  }
+                },
+                "cartOrderabilityNudgeBanner": {
+                  "parameters": {
+                    
+                  },
+                  "presentation": {
+                    
+                  }
+                },
+                "latLong": "17.6364375,75.910812499999",
+                "backgroundImageOverlayInfo": {
+                  
+                },
+                "featuredSectionInfo": {
+                  
+                }
+              },
+              "analytics": {
+                
+              }
+            },
+            "relevance": {
+              "type": "RELEVANCE_TYPE_CHECK_ORDERABILITY_ON_ITEM_ADD",
+              "sectionId": "POP_UP_CROUTON_MENU"
+            }
+          }
+        },
+        {
+          "card": {
+            "card": {
+              "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.GridWidget",
+              "layout": {
+                "rows": 1,
+                "columns": 5,
+                "horizontalScrollEnabled": true,
+                "itemSpacing": 12,
+                "lineSpacing": 10,
+                "widgetPadding": {
+                  
+                },
+                "containerStyle": {
+                  "containerPadding": {
+                    "left": 10,
+                    "right": 10,
+                    "bottom": 16
+                  }
+                },
+                "scrollBar": {
+                  
+                }
+              },
+              "id": "offerCollectionWidget_UX4",
+              "gridElements": {
+                "infoWithStyle": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.OfferInfoWithStyle",
+                  "offers": [
+                    {
+                      "info": {
+                        "header": "20% OFF UPTO ₹150",
+                        "offerTagColor": "#E46D47",
+                        "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2025/3/5/b13ec064-4e06-4fbe-a5a5-7e13bb2f5757_AMEXMenuLogo.png",
+                        "offerIds": [
+                          "31782a08-64d1-41e6-8797-fa951b252932"
+                        ],
+                        "expiryTime": "1970-01-01T00:00:00Z",
+                        "couponCode": "USE AMEXCORP",
+                        "description": "ABOVE ₹699",
+                        "offerType": "offers",
+                        "restId": "750630",
+                        "offerLogo": "MARKETING_BANNERS/IMAGES/OFFERS/2025/3/5/b13ec064-4e06-4fbe-a5a5-7e13bb2f5757_AMEXMenuLogo.png",
+                        "descriptionTextColor": "#7302060C",
+                        "primaryDescription": "USE AMEXCORP"
+                      },
+                      "cta": {
+                        "type": "OFFER_HALF_CARD"
+                      }
+                    },
+                    {
+                      "info": {
+                        "header": "15% OFF UPTO ₹125",
+                        "offerTagColor": "#E46D47",
+                        "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2025/3/12/73959cd9-19f7-4c6d-a2ef-6440aee76fa1_RBLMenuVisibilityLogo.png",
+                        "offerIds": [
+                          "9f6aca08-12cd-410b-8e46-c361f7dddfd9"
+                        ],
+                        "expiryTime": "1970-01-01T00:00:00Z",
+                        "couponCode": "USE RBLCC125",
+                        "description": "ABOVE ₹599",
+                        "offerType": "offers",
+                        "restId": "750630",
+                        "offerLogo": "MARKETING_BANNERS/IMAGES/OFFERS/2025/3/12/73959cd9-19f7-4c6d-a2ef-6440aee76fa1_RBLMenuVisibilityLogo.png",
+                        "descriptionTextColor": "#7302060C",
+                        "primaryDescription": "USE RBLCC125"
+                      },
+                      "cta": {
+                        "type": "OFFER_HALF_CARD"
+                      }
+                    },
+                    {
+                      "info": {
+                        "header": "10% OFF UPTO ₹150",
+                        "offerTagColor": "#E46D47",
+                        "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2025/2/28/1f7ef1c1-729c-4fbd-a62c-9e29bfc1f179_HSBC.png",
+                        "offerIds": [
+                          "45b1b8bc-7add-4110-aa16-bccc970eed04"
+                        ],
+                        "expiryTime": "1970-01-01T00:00:00Z",
+                        "couponCode": "USE HSBCFEST",
+                        "description": "ABOVE ₹499",
+                        "offerType": "offers",
+                        "restId": "750630",
+                        "offerLogo": "MARKETING_BANNERS/IMAGES/OFFERS/2025/2/28/1f7ef1c1-729c-4fbd-a62c-9e29bfc1f179_HSBC.png",
+                        "descriptionTextColor": "#7302060C",
+                        "primaryDescription": "USE HSBCFEST"
+                      },
+                      "cta": {
+                        "type": "OFFER_HALF_CARD"
+                      }
+                    },
+                    {
+                      "info": {
+                        "header": "FLAT ₹50 OFF",
+                        "offerTagColor": "#E46D47",
+                        "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2025/2/28/cafb7754-5e10-4b6a-b64a-9513212c55da_ICICIMenuLogo.png",
+                        "offerIds": [
+                          "2b03dc21-9c3e-4a8f-81e1-d4a6e91daa78"
+                        ],
+                        "expiryTime": "1970-01-01T00:00:00Z",
+                        "couponCode": "NO CODE REQUIRED",
+                        "description": "ABOVE ₹599",
+                        "offerType": "offers",
+                        "restId": "750630",
+                        "offerLogo": "MARKETING_BANNERS/IMAGES/OFFERS/2025/2/28/cafb7754-5e10-4b6a-b64a-9513212c55da_ICICIMenuLogo.png",
+                        "descriptionTextColor": "#7302060C",
+                        "primaryDescription": "NO CODE REQUIRED"
+                      },
+                      "cta": {
+                        "type": "OFFER_HALF_CARD"
+                      }
+                    },
+                    {
+                      "info": {
+                        "header": "FLAT ₹75 OFF",
+                        "offerTagColor": "#E46D47",
+                        "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2025/2/28/eaa95d6c-230f-49ca-942b-6109e33cf256_YESBankMenuLogoNew1.png",
+                        "offerIds": [
+                          "bb452928-91fc-412e-b505-987244417fb6"
+                        ],
+                        "expiryTime": "1970-01-01T00:00:00Z",
+                        "couponCode": "NO CODE REQUIRED",
+                        "description": "ABOVE ₹499",
+                        "offerType": "offers",
+                        "restId": "750630",
+                        "offerLogo": "MARKETING_BANNERS/IMAGES/OFFERS/2025/2/28/eaa95d6c-230f-49ca-942b-6109e33cf256_YESBankMenuLogoNew1.png",
+                        "descriptionTextColor": "#7302060C",
+                        "primaryDescription": "NO CODE REQUIRED"
+                      },
+                      "cta": {
+                        "type": "OFFER_HALF_CARD"
+                      }
+                    }
+                  ],
+                  "habitMilestoneInfo": {
+                    "callout": {
+                      
+                    }
+                  },
+                  "loyaltyDiscoverPresentationInfo": {
+                    "logoCtx": {
+                      
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "groupedCard": {
+            "cardGroupMap": {
+              "REGULAR": {
+                "cards": [
+                  {
+                    "card": {
+                      "card": {
+                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.MenuVegFilterAndBadge",
+                        "isPureVeg": true,
+                        "badges": {
+                          
+                        },
+                        "vegOnlyDetails": {
+                          "imageId": "AutoVegOnly_qkjowj",
+                          "title": "Showing only vegetarian options.",
+                          "description": "Tap on the VEG ONLY button to turn off the setting"
+                        },
+                        "topRatedFilter": {
+                          "attributes": {
+                            "displayText": "Ratings 4.0+"
+                          }
+                        },
+                        "kidsCategoryFilter": {
+                          "attributes": {
+                            "displayText": "Kids Favourites",
+                            "tooltip": {
+                              "enabled": true,
+                              "displayText": "Kids Favourites Filter applied. Remove this filter to see the full Menu."
+                            }
+                          }
+                        },
+                        "vegFilter": {
+                          "attributes": {
+                            "displayText": "VEG"
+                          }
+                        },
+                        "nonvegFilter": {
+                          "attributes": {
+                            "displayText": "NONVEG"
+                          }
+                        }
+                      },
+                      "relevance": {
+                        "type": "RELEVANCE_TYPE_ON_MENU_FILTER_TOGGLED",
+                        "sectionId": "MENU_FILTER_TOGGLE"
+                      }
+                    }
+                  },
+                  {
+                    "card": {
+                      "card": {
+                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                        "title": "Break Fast",
+                        "itemCards": [
+                          {
+                            "card": {
+                              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                              "info": {
+                                "id": "122281347",
+                                "name": "Podi idli",
+                                "category": "Break Fast",
+                                "description": "A South Indian breakfast delight packed with flavors that will tantalize your taste buds.",
+                                "imageId": "gbx3lmjjtg2xzmxmdhgq",
+                                "isVeg": 1,
+                                "price": 9500,
+                                "variants": {
+                                  
+                                },
+                                "variantsV2": {
+                                  
+                                },
+                                "itemAttribute": {
+                                  "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                  
+                                },
+                                "type": "ITEM",
+                                "itemBadge": {
+                                  
+                                },
+                                "badgesV2": {
+                                  
+                                },
+                                "ratings": {
+                                  "aggregatedRating": {
+                                    "rating": "4.3",
+                                    "ratingCount": "8 ratings",
+                                    "ratingCountV2": "8"
+                                  }
+                                }
+                              },
+                              "analytics": {
+                                
+                              },
+                              "hideRestaurantDetails": true
+                            }
+                          },
+                          {
+                            "card": {
+                              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                              "info": {
+                                "id": "122281348",
+                                "name": "Idli [2 pieces]",
+                                "category": "Break Fast",
+                                "description": "Soft and fluffy South Indian delight.",
+                                "imageId": "ededf033bc34f23189a93a3e84fa25a5",
+                                "isVeg": 1,
+                                "price": 7000,
+                                "variants": {
+                                  
+                                },
+                                "variantsV2": {
+                                  
+                                },
+                                "itemAttribute": {
+                                  "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                  "text": "Bestseller",
+                                  "textColor": "#ffffff",
+                                  "topBackgroundColor": "#d53d4c",
+                                  "bottomBackgroundColor": "#b02331"
+                                },
+                                "type": "ITEM",
+                                "itemBadge": {
+                                  
+                                },
+                                "badgesV2": {
+                                  
+                                },
+                                "isBestseller": true,
+                                "ratings": {
+                                  "aggregatedRating": {
+                                    "rating": "3.8",
+                                    "ratingCount": "24 ratings",
+                                    "ratingCountV2": "24"
+                                  }
+                                }
+                              },
+                              "analytics": {
+                                
+                              },
+                              "hideRestaurantDetails": true
+                            }
+                          },
+                          {
+                            "card": {
+                              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                              "info": {
+                                "id": "122281349",
+                                "name": "Medu vada [2 vada]",
+                                "category": "Break Fast",
+                                "description": "Crispy and savory, this South Indian specialty will tantalize your taste buds.",
+                                "isVeg": 1,
+                                "price": 9500,
+                                "variants": {
+                                  
+                                },
+                                "variantsV2": {
+                                  
+                                },
+                                "itemAttribute": {
+                                  "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                  
+                                },
+                                "type": "ITEM",
+                                "itemBadge": {
+                                  
+                                },
+                                "badgesV2": {
+                                  
+                                },
+                                "ratings": {
+                                  "aggregatedRating": {
+                                    "rating": "3.9",
+                                    "ratingCount": "13 ratings",
+                                    "ratingCountV2": "13"
+                                  }
+                                }
+                              },
+                              "analytics": {
+                                
+                              },
+                              "hideRestaurantDetails": true
+                            }
+                          },
+                          {
+                            "card": {
+                              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                              "info": {
+                                "id": "122281350",
+                                "name": "Idli with vada [1 piece]",
+                                "category": "Break Fast",
+                                "description": "A delectable and satisfying combination of fluffy idli and crispy vada, perfect for a wholesome and refreshing breakfast.",
+                                "isVeg": 1,
+                                "price": 8500,
+                                "variants": {
+                                  
+                                },
+                                "variantsV2": {
+                                  
+                                },
+                                "itemAttribute": {
+                                  "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                  
+                                },
+                                "type": "ITEM",
+                                "itemBadge": {
+                                  
+                                },
+                                "badgesV2": {
+                                  
+                                },
+                                "ratings": {
+                                  "aggregatedRating": {
+                                    
+                                  }
+                                }
+                              },
+                              "analytics": {
+                                
+                              },
+                              "hideRestaurantDetails": true
+                            }
+                          },
+                          {
+                            "card": {
+                              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                              "info": {
+                                "id": "122281353",
+                                "name": "Davangiri loni dosa",
+                                "category": "Break Fast",
+                                "description": "A delectable and flavorful South Indian specialty, perfect for a satisfying and scrumptious morning meal.",
+                                "imageId": "bae13fbd8925d89c5263fbfa1db56e21",
+                                "isVeg": 1,
+                                "price": 11000,
+                                "variants": {
+                                  
+                                },
+                                "variantsV2": {
+                                  
+                                },
+                                "itemAttribute": {
+                                  "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                  
+                                },
+                                "type": "ITEM",
+                                "itemBadge": {
+                                  
+                                },
+                                "badgesV2": {
+                                  
+                                },
+                                "ratings": {
+                                  "aggregatedRating": {
+                                    "rating": "3.9",
+                                    "ratingCount": "8 ratings",
+                                    "ratingCountV2": "8"
+                                  }
+                                }
+                              },
+                              "analytics": {
+                                
+                              },
+                              "hideRestaurantDetails": true
+                            }
+                          },
+                          {
+                            "card": {
+                              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                              "info": {
+                                "id": "122281354",
+                                "name": "Plain dosa",
+                                "category": "Break Fast",
+                                "description": "A crispy, golden South Indian classic that's light, savoury, and perfect for breakfast or a light meal.",
+                                "imageId": "o2gsagl6vmgqpdm2lkia",
+                                "isVeg": 1,
+                                "price": 9000,
+                                "variants": {
+                                  
+                                },
+                                "variantsV2": {
+                                  
+                                },
+                                "itemAttribute": {
+                                  "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                  "text": "Bestseller",
+                                  "textColor": "#ffffff",
+                                  "topBackgroundColor": "#d53d4c",
+                                  "bottomBackgroundColor": "#b02331"
+                                },
+                                "type": "ITEM",
+                                "itemBadge": {
+                                  
+                                },
+                                "badgesV2": {
+                                  
+                                },
+                                "isBestseller": true,
+                                "ratings": {
+                                  "aggregatedRating": {
+                                    "rating": "4.0",
+                                    "ratingCount": "6 ratings",
+                                    "ratingCountV2": "6"
+                                  }
+                                }
+                              },
+                              "analytics": {
+                                
+                              },
+                              "hideRestaurantDetails": true
+                            }
+                          },
+                          {
+                            "card": {
+                              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                              "info": {
+                                "id": "122281355",
+                                "name": "Masala dosa",
+                                "category": "Break Fast",
+                                "description": "A crispy and savory South Indian breakfast staple with a flavorful filling.",
+                                "imageId": "aj9ridcavauuemw8rwm5",
+                                "isVeg": 1,
+                                "price": 11000,
+                                "variants": {
+                                  
+                                },
+                                "variantsV2": {
+                                  
+                                },
+                                "itemAttribute": {
+                                  "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                  
+                                },
+                                "type": "ITEM",
+                                "itemBadge": {
+                                  
+                                },
+                                "badgesV2": {
+                                  
+                                },
+                                "ratings": {
+                                  "aggregatedRating": {
+                                    "rating": "4.1",
+                                    "ratingCount": "12 ratings",
+                                    "ratingCountV2": "12"
+                                  }
+                                }
+                              },
+                              "analytics": {
+                                
+                              },
+                              "hideRestaurantDetails": true
+                            }
+                          },
+                          {
+                            "card": {
+                              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                              "info": {
+                                "id": "122281356",
+                                "name": "Cut dosa",
+                                "category": "Break Fast",
+                                "description": "Thin crispy crepes with a golden brown exterior and served with a side of chutney. Serves 1",
+                                "imageId": "98f035374d029e919b329eed26d24039",
+                                "isVeg": 1,
+                                "price": 12500,
+                                "variants": {
+                                  
+                                },
+                                "variantsV2": {
+                                  
+                                },
+                                "itemAttribute": {
+                                  "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                  
+                                },
+                                "type": "ITEM",
+                                "itemBadge": {
+                                  
+                                },
+                                "badgesV2": {
+                                  
+                                },
+                                "ratings": {
+                                  "aggregatedRating": {
+                                    
+                                  }
+                                }
+                              },
+                              "analytics": {
+                                
+                              },
+                              "hideRestaurantDetails": true
+                            }
+                          },
+                          {
+                            "card": {
+                              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                              "info": {
+                                "id": "122281357",
+                                "name": "Loni plain dosa",
+                                "category": "Break Fast",
+                                "description": "A flavorful and traditional South Indian breakfast delicacy with a thin, crispy texture and a delightful taste.",
+                                "isVeg": 1,
+                                "price": 11000,
+                                "variants": {
+                                  
+                                },
+                                "variantsV2": {
+                                  
+                                },
+                                "itemAttribute": {
+                                  "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                  
+                                },
+                                "type": "ITEM",
+                                "itemBadge": {
+                                  
+                                },
+                                "badgesV2": {
+                                  
+                                },
+                                "ratings": {
+                                  "aggregatedRating": {
+                                    
+                                  }
+                                }
+                              },
+                              "analytics": {
+                                
+                              },
+                              "hideRestaurantDetails": true
+                            }
+                          },
+                          {
+                            "card": {
+                              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                              "info": {
+                                "id": "122281359",
+                                "name": "Ghee plain dosa",
+                                "category": "Break Fast",
+                                "description": "Delicious, classic Indian breakfast fare served with a generous drizzle of rich, aromatic ghee.",
+                                "imageId": "a108b30c0d4e57b4109db7bdf7af411f",
+                                "isVeg": 1,
+                                "price": 12500,
+                                "variants": {
+                                  
+                                },
+                                "variantsV2": {
+                                  
+                                },
+                                "itemAttribute": {
+                                  "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                  
+                                },
+                                "type": "ITEM",
+                                "itemBadge": {
+                                  
+                                },
+                                "badgesV2": {
+                                  
+                                },
+                                "ratings": {
+                                  "aggregatedRating": {
+                                    
+                                  }
+                                }
+                              },
+                              "analytics": {
+                                
+                              },
+                              "hideRestaurantDetails": true
+                            }
+                          },
+                          {
+                            "card": {
+                              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                              "info": {
+                                "id": "122281360",
+                                "name": "Ghee masala dosa",
+                                "category": "Break Fast",
+                                "description": "A delectable and flavorful South Indian specialty that will tantalize your taste buds with its perfectly crisp texture and rich, aromatic filling.",
+                                "imageId": "ibyu7itx0faz0baxjlhd",
+                                "isVeg": 1,
+                                "price": 13500,
+                                "variants": {
+                                  
+                                },
+                                "variantsV2": {
+                                  
+                                },
+                                "itemAttribute": {
+                                  "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                  
+                                },
+                                "type": "ITEM",
+                                "itemBadge": {
+                                  
+                                },
+                                "badgesV2": {
+                                  
+                                },
+                                "ratings": {
+                                  "aggregatedRating": {
+                                    
+                                  }
+                                }
+                              },
+                              "analytics": {
+                                
+                              },
+                              "hideRestaurantDetails": true
+                            }
+                          },
+                          {
+                            "card": {
+                              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                              "info": {
+                                "id": "122281361",
+                                "name": "Paper plain dosa",
+                                "category": "Break Fast",
+                                "description": "A light, crispy and delectable veg delight perfect for a wholesome and satisfying breakfast.",
+                                "isVeg": 1,
+                                "price": 12000,
+                                "variants": {
+                                  
+                                },
+                                "variantsV2": {
+                                  
+                                },
+                                "itemAttribute": {
+                                  "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                  
+                                },
+                                "type": "ITEM",
+                                "itemBadge": {
+                                  
+                                },
+                                "badgesV2": {
+                                  
+                                },
+                                "ratings": {
+                                  "aggregatedRating": {
+                                    
+                                  }
+                                }
+                              },
+                              "analytics": {
+                                
+                              },
+                              "hideRestaurantDetails": true
+                            }
+                          },
+                          {
+                            "card": {
+                              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                              "info": {
+                                "id": "122281362",
+                                "name": "Paper masala dosa",
+                                "category": "Break Fast",
+                                "description": "Crispy, thin crepe with flavorful filling.",
+                                "imageId": "jl6uvxgqb6kqo27yfn0w",
+                                "isVeg": 1,
+                                "price": 13000,
+                                "variants": {
+                                  
+                                },
+                                "variantsV2": {
+                                  
+                                },
+                                "itemAttribute": {
+                                  "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                  
+                                },
+                                "type": "ITEM",
+                                "itemBadge": {
+                                  
+                                },
+                                "badgesV2": {
+                                  
+                                },
+                                "ratings": {
+                                  "aggregatedRating": {
+                                    "rating": "4.4",
+                                    "ratingCount": "3 ratings",
+                                    "ratingCountV2": "3"
+                                  }
+                                }
+                              },
+                              "analytics": {
+                                
+                              },
+                              "hideRestaurantDetails": true
+                            }
+                          },
+                          {
+                            "card": {
+                              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                              "info": {
+                                "id": "122281363",
+                                "name": "Paper ghee dosa",
+                                "category": "Break Fast",
+                                "description": "A delightful and crispy breakfast treat with a hint of ghee flavor that will leave you craving for more.",
+                                "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/15/0c4ddfea-1866-45dc-8695-7d81b8985990_93533700-9287-4296-b768-e80043c68ff7.JPG",
+                                "isVeg": 1,
+                                "price": 16000,
+                                "variants": {
+                                  
+                                },
+                                "variantsV2": {
+                                  
+                                },
+                                "itemAttribute": {
+                                  "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                  
+                                },
+                                "type": "ITEM",
+                                "itemBadge": {
+                                  
+                                },
+                                "badgesV2": {
+                                  
+                                },
+                                "ratings": {
+                                  "aggregatedRating": {
+                                    
+                                  }
+                                }
+                              },
+                              "analytics": {
+                                
+                              },
+                              "hideRestaurantDetails": true
+                            }
+                          },
+                          {
+                            "card": {
+                              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                              "info": {
+                                "id": "122281364",
+                                "name": "Paper loni dosa",
+                                "category": "Break Fast",
+                                "description": "A delectable and crispy South Indian pancake, perfect for a delightful breakfast experience.",
+                                "imageId": "e7c12082c4052f146fd0563ab15e4d9e",
+                                "isVeg": 1,
+                                "price": 15000,
+                                "variants": {
+                                  
+                                },
+                                "variantsV2": {
+                                  
+                                },
+                                "itemAttribute": {
+                                  "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                  
+                                },
+                                "type": "ITEM",
+                                "itemBadge": {
+                                  
+                                },
+                                "badgesV2": {
+                                  
+                                },
+                                "ratings": {
+                                  "aggregatedRating": {
+                                    
+                                  }
+                                }
+                              },
+                              "analytics": {
+                                
+                              },
+                              "hideRestaurantDetails": true
+                            }
+                          },
+                          {
+                            "card": {
+                              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                              "info": {
+                                "id": "122281365",
+                                "name": "Onion uttapam",
+                                "category": "Break Fast",
+                                "description": "Savour the flavours of the south with this delicious vegetable uttapam topped with caramelized onions.",
+                                "imageId": "ansffevv1mavlshho26g",
+                                "isVeg": 1,
+                                "price": 11000,
+                                "variants": {
+                                  
+                                },
+                                "variantsV2": {
+                                  
+                                },
+                                "itemAttribute": {
+                                  "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                  
+                                },
+                                "type": "ITEM",
+                                "itemBadge": {
+                                  
+                                },
+                                "badgesV2": {
+                                  
+                                },
+                                "ratings": {
+                                  "aggregatedRating": {
+                                    "rating": "4.7",
+                                    "ratingCount": "5 ratings",
+                                    "ratingCountV2": "5"
+                                  }
+                                }
+                              },
+                              "analytics": {
+                                
+                              },
+                              "hideRestaurantDetails": true
+                            }
+                          },
+                          {
+                            "card": {
+                              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                              "info": {
+                                "id": "122281366",
+                                "name": "Tomato onion chilli uttapam",
+                                "category": "Break Fast",
+                                "description": "A tantalizing Indian breakfast delicacy bursting with flavorful and vibrant toppings.",
+                                "isVeg": 1,
+                                "price": 12500,
+                                "variants": {
+                                  
+                                },
+                                "variantsV2": {
+                                  
+                                },
+                                "itemAttribute": {
+                                  "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                  
+                                },
+                                "type": "ITEM",
+                                "itemBadge": {
+                                  
+                                },
+                                "badgesV2": {
+                                  
+                                },
+                                "ratings": {
+                                  "aggregatedRating": {
+                                    
+                                  }
+                                }
+                              },
+                              "analytics": {
+                                
+                              },
+                              "hideRestaurantDetails": true
+                            }
+                          },
+                          {
+                            "card": {
+                              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                              "info": {
+                                "id": "122281368",
+                                "name": "Podi plain dosa",
+                                "category": "Break Fast",
+                                "description": "A flavorful and traditional South Indian delight perfect for a delectable breakfast experience.",
+                                "isVeg": 1,
+                                "price": 12500,
+                                "variants": {
+                                  
+                                },
+                                "variantsV2": {
+                                  
+                                },
+                                "itemAttribute": {
+                                  "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                  
+                                },
+                                "type": "ITEM",
+                                "itemBadge": {
+                                  
+                                },
+                                "badgesV2": {
+                                  
+                                },
+                                "ratings": {
+                                  "aggregatedRating": {
+                                    
+                                  }
+                                }
+                              },
+                              "analytics": {
+                                
+                              },
+                              "hideRestaurantDetails": true
+                            }
+                          },
+                          {
+                            "card": {
+                              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                              "info": {
+                                "id": "122281369",
+                                "name": "Podi masala dosa",
+                                "category": "Break Fast",
+                                "description": "Crispy and flavorful, this traditional South Indian favorite is a delightful start to your day.",
+                                "imageId": "vfynimxe00l11pqgipst",
+                                "isVeg": 1,
+                                "price": 15000,
+                                "variants": {
+                                  
+                                },
+                                "variantsV2": {
+                                  
+                                },
+                                "itemAttribute": {
+                                  "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                  
+                                },
+                                "type": "ITEM",
+                                "itemBadge": {
+                                  
+                                },
+                                "badgesV2": {
+                                  
+                                },
+                                "ratings": {
+                                  "aggregatedRating": {
+                                    "rating": "3.5",
+                                    "ratingCount": "4 ratings",
+                                    "ratingCountV2": "4"
+                                  }
+                                }
+                              },
+                              "analytics": {
+                                
+                              },
+                              "hideRestaurantDetails": true
+                            }
+                          },
+                          {
+                            "card": {
+                              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                              "info": {
+                                "id": "122281373",
+                                "name": "Anna mysore plain dosa",
+                                "category": "Break Fast",
+                                "description": "A delectable South Indian pancake perfect for a satisfying breakfast treat.",
+                                "imageId": "y63yaqt35le83dmtuuul",
+                                "isVeg": 1,
+                                "price": 14500,
+                                "variants": {
+                                  
+                                },
+                                "variantsV2": {
+                                  
+                                },
+                                "itemAttribute": {
+                                  "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                  
+                                },
+                                "type": "ITEM",
+                                "itemBadge": {
+                                  
+                                },
+                                "badgesV2": {
+                                  
+                                },
+                                "ratings": {
+                                  "aggregatedRating": {
+                                    
+                                  }
+                                }
+                              },
+                              "analytics": {
+                                
+                              },
+                              "hideRestaurantDetails": true
+                            }
+                          },
+                          {
+                            "card": {
+                              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                              "info": {
+                                "id": "122281374",
+                                "name": "Anna mysore masala dosa",
+                                "category": "Break Fast",
+                                "description": "A flavorful South Indian delicacy perfect for a delectable breakfast experience.",
+                                "imageId": "t6wetqddwub276urycm6",
+                                "isVeg": 1,
+                                "price": 16500,
+                                "variants": {
+                                  
+                                },
+                                "variantsV2": {
+                                  
+                                },
+                                "itemAttribute": {
+                                  "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                  
+                                },
+                                "type": "ITEM",
+                                "itemBadge": {
+                                  
+                                },
+                                "badgesV2": {
+                                  
+                                },
+                                "ratings": {
+                                  "aggregatedRating": {
+                                    
+                                  }
+                                }
+                              },
+                              "analytics": {
+                                
+                              },
+                              "hideRestaurantDetails": true
+                            }
+                          },
+                          {
+                            "card": {
+                              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                              "info": {
+                                "id": "144293734",
+                                "name": "Upit",
+                                "category": "Break Fast",
+                                "isVeg": 1,
+                                "price": 5000,
+                                "variants": {
+                                  
+                                },
+                                "variantsV2": {
+                                  
+                                },
+                                "itemAttribute": {
+                                  "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                  
+                                },
+                                "type": "ITEM",
+                                "itemBadge": {
+                                  
+                                },
+                                "badgesV2": {
+                                  
+                                },
+                                "ratings": {
+                                  "aggregatedRating": {
+                                    
+                                  }
+                                }
+                              },
+                              "analytics": {
+                                
+                              },
+                              "hideRestaurantDetails": true
+                            }
+                          },
+                          {
+                            "card": {
+                              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                              "info": {
+                                "id": "144293742",
+                                "name": "Coffee",
+                                "category": "Break Fast",
+                                "isVeg": 1,
+                                "price": 3000,
+                                "variants": {
+                                  
+                                },
+                                "variantsV2": {
+                                  
+                                },
+                                "itemAttribute": {
+                                  "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                  
+                                },
+                                "type": "ITEM",
+                                "itemBadge": {
+                                  
+                                },
+                                "badgesV2": {
+                                  
+                                },
+                                "ratings": {
+                                  "aggregatedRating": {
+                                    
+                                  }
+                                }
+                              },
+                              "analytics": {
+                                
+                              },
+                              "hideRestaurantDetails": true
+                            }
+                          },
+                          {
+                            "card": {
+                              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                              "info": {
+                                "id": "144293754",
+                                "name": "Tea",
+                                "category": "Break Fast",
+                                "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/1/26/1ea9ad7a-2211-45b1-8fb8-81f7e7444e0d_2e072d0b-fccd-4f44-99f7-84f3bb0815ef.jpg_compressed",
+                                "isVeg": 1,
+                                "price": 1500,
+                                "variants": {
+                                  
+                                },
+                                "variantsV2": {
+                                  
+                                },
+                                "itemAttribute": {
+                                  "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                  
+                                },
+                                "type": "ITEM",
+                                "itemBadge": {
+                                  
+                                },
+                                "badgesV2": {
+                                  
+                                },
+                                "ratings": {
+                                  "aggregatedRating": {
+                                    
+                                  }
+                                }
+                              },
+                              "analytics": {
+                                
+                              },
+                              "hideRestaurantDetails": true
+                            }
+                          },
+                          {
+                            "card": {
+                              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                              "info": {
+                                "id": "122281352",
+                                "name": "Set dosa",
+                                "category": "Break Fast",
+                                "description": "Soft and fluffy pancakes perfect for a filling and comforting breakfast.",
+                                "imageId": "b3ec371fc6b685b05d8b16e9892ed868",
+                                "isVeg": 1,
+                                "price": 8000,
+                                "variants": {
+                                  
+                                },
+                                "variantsV2": {
+                                  
+                                },
+                                "itemAttribute": {
+                                  "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                  
+                                },
+                                "type": "ITEM",
+                                "itemBadge": {
+                                  
+                                },
+                                "badgesV2": {
+                                  
+                                },
+                                "ratings": {
+                                  "aggregatedRating": {
+                                    "rating": "4.7",
+                                    "ratingCount": "19 ratings",
+                                    "ratingCountV2": "19"
+                                  }
+                                }
+                              },
+                              "analytics": {
+                                
+                              },
+                              "hideRestaurantDetails": true
+                            }
+                          },
+                          {
+                            "card": {
+                              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                              "info": {
+                                "id": "122281358",
+                                "name": "Loni masala dosa",
+                                "category": "Break Fast",
+                                "description": "A flavorful and aromatic breakfast delight that will tantalize your taste buds with its unique combination of flavors.",
+                                "imageId": "9355ff21d2c3cb44f6a04354a200c225",
+                                "isVeg": 1,
+                                "price": 5000,
+                                "variants": {
+                                  
+                                },
+                                "variantsV2": {
+                                  
+                                },
+                                "itemAttribute": {
+                                  "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                  
+                                },
+                                "type": "ITEM",
+                                "itemBadge": {
+                                  
+                                },
+                                "badgesV2": {
+                                  
+                                },
+                                "ratings": {
+                                  "aggregatedRating": {
+                                    
+                                  }
+                                }
+                              },
+                              "analytics": {
+                                
+                              },
+                              "hideRestaurantDetails": true
+                            }
+                          }
+                        ],
+                        "subtitleSuffix": {
+                          
+                        },
+                        "image": "gbx3lmjjtg2xzmxmdhgq",
+                        "categoryId": "38305653"
+                      }
+                    }
+                  },
+                  {
+                    "card": {
+                      "card": {
+                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantLicenseInfo",
+                        "type": "FSSAI",
+                        "imageId": "fssai_final_edss9i",
+                        "text": [
+                          "License No. 11521041000031"
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "card": {
+                      "card": {
+                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantAddress",
+                        "name": "Anna Idli",
+                        "area": "Jule Solapur",
+                        "completeAddress": "PLOT NO 23/24 SHOP NO 1-8 VAMAN NAGAR JULE SOLAPUR SOLAPUR MUNICIPAL CORP ZONE 4 SOLAPUR MAHARASHTRA"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "firstOffsetRequest": true,
+      "isQCLink": false
+    },
+    "tid": "d4831ecd-4b38-4c69-a1c4-e367b418a4f7",
+    "sid": "jh4f0802-2a78-4ed5-aaff-9ac7d9fc8168",
+    "deviceId": "ae48c84e-fd25-cd1d-3f38-4daa217aec4c",
+    "csrfToken": "mNPxp5XtgZBj-00Vx0TlAJXSnZz7IsAlgOdqLRwU"
+  }

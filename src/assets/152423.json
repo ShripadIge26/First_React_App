@@ -1,0 +1,1012 @@
+
+{
+    "statusCode": 0,
+    "data": {
+      "statusMessage": "done successfully",
+      "cards": [
+        {
+          "card": {
+            "card": {
+              "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.TextBoxV2",
+              "text": "SS Bhandu Puneri Vada Pav",
+              "headerStyling": {
+                "textColor": "text_Highest_Emphasis",
+                "textVariant": "header_H3_Black"
+              }
+            }
+          }
+        },
+        {
+          "card": {
+            "card": {
+              "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.RestaurantBlTab",
+              "tabs": [
+                {
+                  "id": "Order Online",
+                  "title": "Order Online"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "card": {
+            "card": {
+              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+              "info": {
+                "id": "152423",
+                "name": "SS Bhandu Puneri Vada Pav",
+                "city": "Solapur",
+                "slugs": {
+                  "restaurant": "ss-bhandu-puneri-vada-pav-murarji-peth-central-solapur",
+                  "city": "solapur"
+                },
+                "uniqueId": "e51e6528-4859-48c8-8fed-e84c17dc2d76",
+                "cloudinaryImageId": "axr3awc1fzqlqrhmkiui",
+                "locality": "Murarji Peth",
+                "areaName": "Solapur Locality",
+                "costForTwo": "20000",
+                "costForTwoMessage": "₹200 for two",
+                "cuisines": [
+                  "Street Food",
+                  "Fast Food"
+                ],
+                "avgRating": 4.5,
+                "veg": true,
+                "feeDetails": {
+                  "restaurantId": "152423",
+                  "fees": [
+                    {
+                      
+                    }
+                  ]
+                },
+                "parentId": "195062",
+                "avgRatingString": "4.5",
+                "totalRatingsString": "482 ratings",
+                "sla": {
+                  "restaurantId": "152423",
+                  "deliveryTime": 25,
+                  "minDeliveryTime": 25,
+                  "maxDeliveryTime": 30,
+                  "lastMileTravel": 2.8,
+                  "serviceability": "SERVICEABLE",
+                  "stressFactor": 1,
+                  "rainMode": "RAIN_MODE_NONE",
+                  "longDistance": "LONG_DISTANCE_NOT_LONG_DISTANCE",
+                  "zoneId": 1034,
+                  "slaString": "25-30 MINS",
+                  "lastMileTravelString": "2.8 km",
+                  "iconType": "ICON_TYPE_EMPTY"
+                },
+                "availability": {
+                  "nextCloseTime": "2025-03-15 21:00:00",
+                  "visibility": true,
+                  "opened": true,
+                  "restaurantClosedMeta": {
+                    
+                  }
+                },
+                "aggregatedDiscountInfo": {
+                  "header": "Flat ₹150 off",
+                  "shortDescriptionList": [
+                    {
+                      "meta": "FLAT ₹150 off | Use SAVERDEAL",
+                      "discountType": "Flat",
+                      "operationType": "RESTAURANT"
+                    },
+                    {
+                      "meta": "FLAT ₹175 off | Use SAVEBIG",
+                      "discountType": "Flat",
+                      "operationType": "RESTAURANT"
+                    }
+                  ],
+                  "descriptionList": [
+                    {
+                      "meta": "FLAT ₹150 off | Use SAVERDEAL",
+                      "discountType": "Flat",
+                      "operationType": "RESTAURANT"
+                    },
+                    {
+                      "meta": "FLAT ₹175 off | Use SAVEBIG",
+                      "discountType": "Flat",
+                      "operationType": "RESTAURANT"
+                    }
+                  ],
+                  "visible": true
+                },
+                "badges": {
+                  
+                },
+                "slugString": "ss-bhandu-puneri-vada-pav-murarji-peth-central-solapur",
+                "isOpen": true,
+                "labels": [
+                  {
+                    "title": "Timings",
+                    "message": "null"
+                  },
+                  {
+                    "title": "Address",
+                    "message": "12, Murarji Peth, Navives, Opp. To Police Station, Solapur 413001."
+                  },
+                  {
+                    "title": "Cuisines",
+                    "message": "Street Food,Fast Food"
+                  }
+                ],
+                "totalRatings": 482,
+                "aggregatedDiscountInfoV2": {
+                  "header": "Flat ₹150 off",
+                  "shortDescriptionList": [
+                    {
+                      "meta": "FLAT ₹150 off | Use SAVERDEAL",
+                      "discountType": "Flat",
+                      "operationType": "RESTAURANT"
+                    },
+                    {
+                      "meta": "FLAT ₹175 off | Use SAVEBIG",
+                      "discountType": "Flat",
+                      "operationType": "RESTAURANT"
+                    }
+                  ],
+                  "descriptionList": [
+                    {
+                      "meta": "FLAT ₹150 off | Use SAVERDEAL",
+                      "discountType": "Flat",
+                      "operationType": "RESTAURANT"
+                    },
+                    {
+                      "meta": "FLAT ₹175 off | Use SAVEBIG",
+                      "discountType": "Flat",
+                      "operationType": "RESTAURANT"
+                    }
+                  ],
+                  "couponDetailsCta": "View coupon details"
+                },
+                "type": "F",
+                "nudgeBanners": [
+                  {
+                    "minValue": 244,
+                    "maxValue": 349,
+                    "priority": 1,
+                    "couponCode": "SAVERDEAL",
+                    "discountInfo": {
+                      "discountType": "Flat",
+                      "value": 150
+                    },
+                    "lockedMessage": "Add items worth ₹<amount> to save ₹150 | Code SAVERDEAL",
+                    "unlockedMessage": "SAVERDEAL Coupon Unlocked! Use it to save ₹150",
+                    "logoCtx": {
+                      
+                    }
+                  },
+                  {
+                    "minValue": 1049,
+                    "maxValue": 1499,
+                    "priority": 3,
+                    "couponCode": "NEWYEARPARTY",
+                    "discountInfo": {
+                      "discountType": "Flat",
+                      "value": 300
+                    },
+                    "lockedMessage": "Add items worth ₹<amount> to save ₹300 | Code NEWYEARPARTY",
+                    "unlockedMessage": "NEWYEARPARTY Coupon Unlocked! Use it to save ₹300",
+                    "logoCtx": {
+                      
+                    }
+                  }
+                ],
+                "headerBanner": {
+                  "url": "swiggy://webview?is_external=false&webview_url=https://www.swiggy.com/restaurant-info/152423"
+                },
+                "ratingSlab": "RATING_SLAB_5",
+                "orderabilityCommunication": {
+                  "title": {
+                    
+                  },
+                  "subTitle": {
+                    
+                  },
+                  "message": {
+                    
+                  },
+                  "customIcon": {
+                    
+                  },
+                  "commsStyling": {
+                    
+                  }
+                },
+                "hasBestsellerItems": true,
+                "cartOrderabilityNudgeBanner": {
+                  "parameters": {
+                    
+                  },
+                  "presentation": {
+                    
+                  }
+                },
+                "latLong": "17.67588651,75.89877409",
+                "backgroundImageOverlayInfo": {
+                  
+                },
+                "featuredSectionInfo": {
+                  
+                }
+              },
+              "analytics": {
+                
+              }
+            },
+            "relevance": {
+              "type": "RELEVANCE_TYPE_CHECK_ORDERABILITY_ON_ITEM_ADD",
+              "sectionId": "POP_UP_CROUTON_MENU"
+            }
+          }
+        },
+        {
+          "card": {
+            "card": {
+              "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.GridWidget",
+              "layout": {
+                "rows": 1,
+                "columns": 5,
+                "horizontalScrollEnabled": true,
+                "itemSpacing": 12,
+                "lineSpacing": 10,
+                "widgetPadding": {
+                  
+                },
+                "containerStyle": {
+                  "containerPadding": {
+                    "left": 10,
+                    "right": 10,
+                    "bottom": 16
+                  }
+                },
+                "scrollBar": {
+                  
+                }
+              },
+              "id": "offerCollectionWidget_UX4",
+              "gridElements": {
+                "infoWithStyle": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.OfferInfoWithStyle",
+                  "offers": [
+                    {
+                      "info": {
+                        "header": "FLAT ₹150 OFF",
+                        "offerTag": "FLAT DEAL",
+                        "offerTagColor": "#E46D47",
+                        "offerIds": [
+                          "f45fece8-7a9e-4097-8c01-cca31e3863b0"
+                        ],
+                        "expiryTime": "1970-01-01T00:00:00Z",
+                        "couponCode": "USE SAVERDEAL",
+                        "description": "ABOVE ₹349",
+                        "offerType": "offers",
+                        "restId": "152423",
+                        "offerLogo": "offers/generic",
+                        "descriptionTextColor": "#7302060C",
+                        "primaryDescription": "USE SAVERDEAL"
+                      },
+                      "cta": {
+                        "type": "OFFER_HALF_CARD"
+                      }
+                    },
+                    {
+                      "info": {
+                        "header": "FLAT ₹175 OFF",
+                        "offerTag": "FLAT DEAL",
+                        "offerTagColor": "#E46D47",
+                        "offerIds": [
+                          "8aceb50e-2bb1-48a2-8945-65603f27f541"
+                        ],
+                        "expiryTime": "1970-01-01T00:00:00Z",
+                        "couponCode": "USE SAVEBIG",
+                        "description": "ABOVE ₹399",
+                        "offerType": "offers",
+                        "restId": "152423",
+                        "offerLogo": "offers/generic",
+                        "descriptionTextColor": "#7302060C",
+                        "primaryDescription": "USE SAVEBIG"
+                      },
+                      "cta": {
+                        "type": "OFFER_HALF_CARD"
+                      }
+                    },
+                    {
+                      "info": {
+                        "header": "FLAT ₹300 OFF",
+                        "offerTag": "DEFAULT",
+                        "offerTagColor": "#E46D47",
+                        "offerIds": [
+                          "c0f04547-e394-4600-9a32-312312bf0c65"
+                        ],
+                        "expiryTime": "1970-01-01T00:00:00Z",
+                        "couponCode": "USE NEWYEARPARTY",
+                        "description": "ABOVE ₹1499",
+                        "offerType": "offers",
+                        "restId": "152423",
+                        "offerLogo": "offers/generic",
+                        "descriptionTextColor": "#7302060C",
+                        "primaryDescription": "USE NEWYEARPARTY"
+                      },
+                      "cta": {
+                        "type": "OFFER_HALF_CARD"
+                      }
+                    },
+                    {
+                      "info": {
+                        "header": "FLAT 30% OFF",
+                        "offerTag": "DEFAULT",
+                        "offerTagColor": "#E46D47",
+                        "offerIds": [
+                          "6e5a0b8d-7eab-4e11-9c80-5268f172f82c"
+                        ],
+                        "expiryTime": "1970-01-01T00:00:00Z",
+                        "couponCode": "USE XTRAPARTY",
+                        "description": "ABOVE ₹1199",
+                        "offerType": "offers",
+                        "restId": "152423",
+                        "offerLogo": "offers/generic",
+                        "descriptionTextColor": "#7302060C",
+                        "primaryDescription": "USE XTRAPARTY"
+                      },
+                      "cta": {
+                        "type": "OFFER_HALF_CARD"
+                      }
+                    },
+                    {
+                      "info": {
+                        "header": "20% OFF UPTO ₹150",
+                        "offerTagColor": "#E46D47",
+                        "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2025/3/5/b13ec064-4e06-4fbe-a5a5-7e13bb2f5757_AMEXMenuLogo.png",
+                        "offerIds": [
+                          "31782a08-64d1-41e6-8797-fa951b252932"
+                        ],
+                        "expiryTime": "1970-01-01T00:00:00Z",
+                        "couponCode": "USE AMEXCORP",
+                        "description": "ABOVE ₹699",
+                        "offerType": "offers",
+                        "restId": "152423",
+                        "offerLogo": "MARKETING_BANNERS/IMAGES/OFFERS/2025/3/5/b13ec064-4e06-4fbe-a5a5-7e13bb2f5757_AMEXMenuLogo.png",
+                        "descriptionTextColor": "#7302060C",
+                        "primaryDescription": "USE AMEXCORP"
+                      },
+                      "cta": {
+                        "type": "OFFER_HALF_CARD"
+                      }
+                    }
+                  ],
+                  "habitMilestoneInfo": {
+                    "callout": {
+                      
+                    }
+                  },
+                  "loyaltyDiscoverPresentationInfo": {
+                    "logoCtx": {
+                      
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "groupedCard": {
+            "cardGroupMap": {
+              "REGULAR": {
+                "cards": [
+                  {
+                    "card": {
+                      "card": {
+                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.MenuVegFilterAndBadge",
+                        "isPureVeg": true,
+                        "badges": {
+                          
+                        },
+                        "vegOnlyDetails": {
+                          "imageId": "AutoVegOnly_qkjowj",
+                          "title": "Showing only vegetarian options.",
+                          "description": "Tap on the VEG ONLY button to turn off the setting"
+                        },
+                        "topRatedFilter": {
+                          "attributes": {
+                            "displayText": "Ratings 4.0+"
+                          }
+                        },
+                        "kidsCategoryFilter": {
+                          "attributes": {
+                            "displayText": "Kids Favourites",
+                            "tooltip": {
+                              "enabled": true,
+                              "displayText": "Kids Favourites Filter applied. Remove this filter to see the full Menu."
+                            }
+                          }
+                        },
+                        "vegFilter": {
+                          "attributes": {
+                            "displayText": "VEG"
+                          }
+                        },
+                        "nonvegFilter": {
+                          "attributes": {
+                            "displayText": "NONVEG"
+                          }
+                        }
+                      },
+                      "relevance": {
+                        "type": "RELEVANCE_TYPE_ON_MENU_FILTER_TOGGLED",
+                        "sectionId": "MENU_FILTER_TOGGLE"
+                      }
+                    }
+                  },
+                  {
+                    "card": {
+                      "card": {
+                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.MenuCarousel",
+                        "title": "Top Picks",
+                        "carousel": [
+                          {
+                            "type": "TopCarousel",
+                            "subtype": "image",
+                            "bannerId": "3355419",
+                            "creativeId": "TopPicks2024/37033693B.png",
+                            "title": "Sangam Vada",
+                            "description": " ",
+                            "fontColor": "#FFFFFF",
+                            "dish": {
+                              "info": {
+                                "id": "37033693",
+                                "name": "Sangam Vada",
+                                "category": "Snacks",
+                                "description": "A delightful Indian snack offering a harmonious blend of flavors and textures, perfect for any time of the day.",
+                                "imageId": "lasvave5zm8jounloaey",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "price": 2000,
+                                "variants": {
+                                  
+                                },
+                                "variantsV2": {
+                                  
+                                },
+                                "itemAttribute": {
+                                  "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                  
+                                },
+                                "itemBadge": {
+                                  
+                                },
+                                "badgesV2": {
+                                  
+                                }
+                              },
+                              "analytics": {
+                                
+                              },
+                              "hideRestaurantDetails": true
+                            }
+                          },
+                          {
+                            "type": "TopCarousel",
+                            "subtype": "image",
+                            "bannerId": "3355420",
+                            "creativeId": "TopPicks2024/127243615B.png",
+                            "title": "Vada Pav",
+                            "description": " ",
+                            "fontColor": "#FFFFFF",
+                            "dish": {
+                              "info": {
+                                "id": "127243615",
+                                "name": "Vada Pav",
+                                "category": "Vada Pav",
+                                "description": "Mouthwatering Indian street food that packs a flavorful punch.",
+                                "imageId": "a30539d02960247a7510508c40dcca3b",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "price": 2200,
+                                "variants": {
+                                  
+                                },
+                                "variantsV2": {
+                                  
+                                },
+                                "itemAttribute": {
+                                  "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                  
+                                },
+                                "itemBadge": {
+                                  
+                                },
+                                "badgesV2": {
+                                  
+                                }
+                              },
+                              "analytics": {
+                                
+                              },
+                              "hideRestaurantDetails": true
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "card": {
+                      "card": {
+                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.NestedItemCategory",
+                        "title": "Navratri Specials",
+                        "categories": [
+                          {
+                            "title": "Navratri Bestseller Combos",
+                            "itemCards": [
+                              {
+                                "card": {
+                                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                  "info": {
+                                    "id": "127243613",
+                                    "name": "Double Vada Pav [Serves 1]",
+                                    "category": "Navratri Specials",
+                                    "description": "A flavorful treat that combines crispy vada patties with soft pav buns, perfect for celebrating the festive season.",
+                                    "inStock": 1,
+                                    "isVeg": 1,
+                                    "price": 3500,
+                                    "variants": {
+                                      
+                                    },
+                                    "variantsV2": {
+                                      
+                                    },
+                                    "itemAttribute": {
+                                      "vegClassifier": "VEG"
+                                    },
+                                    "ribbon": {
+                                      
+                                    },
+                                    "type": "ITEM",
+                                    "itemBadge": {
+                                      
+                                    },
+                                    "badgesV2": {
+                                      
+                                    },
+                                    "ratings": {
+                                      "aggregatedRating": {
+                                        "rating": "4.7",
+                                        "ratingCount": "24 ratings",
+                                        "ratingCountV2": "24"
+                                      }
+                                    }
+                                  },
+                                  "analytics": {
+                                    
+                                  },
+                                  "hideRestaurantDetails": true
+                                }
+                              },
+                              {
+                                "card": {
+                                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                  "info": {
+                                    "id": "127243611",
+                                    "name": "Samosa and Sangam Vada [Serves 1]",
+                                    "category": "Navratri Specials",
+                                    "description": "A delectable combination of crispy samosas and fragrant sangam vadas, perfect for Navratri festivities.",
+                                    "inStock": 1,
+                                    "isVeg": 1,
+                                    "price": 4000,
+                                    "variants": {
+                                      
+                                    },
+                                    "variantsV2": {
+                                      
+                                    },
+                                    "itemAttribute": {
+                                      "vegClassifier": "VEG"
+                                    },
+                                    "ribbon": {
+                                      
+                                    },
+                                    "type": "ITEM",
+                                    "itemBadge": {
+                                      
+                                    },
+                                    "badgesV2": {
+                                      
+                                    },
+                                    "ratings": {
+                                      "aggregatedRating": {
+                                        "rating": "4.2",
+                                        "ratingCount": "18 ratings",
+                                        "ratingCountV2": "18"
+                                      }
+                                    }
+                                  },
+                                  "analytics": {
+                                    
+                                  },
+                                  "hideRestaurantDetails": true
+                                }
+                              },
+                              {
+                                "card": {
+                                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                  "info": {
+                                    "id": "127243612",
+                                    "name": "Vada Pav and Sangam Vada [Serves 2]",
+                                    "category": "Navratri Specials",
+                                    "description": "A flavorful and festive blend of traditional Indian flavors, perfect for Navratri celebrations.",
+                                    "inStock": 1,
+                                    "isVeg": 1,
+                                    "price": 4500,
+                                    "variants": {
+                                      
+                                    },
+                                    "variantsV2": {
+                                      
+                                    },
+                                    "itemAttribute": {
+                                      "vegClassifier": "VEG"
+                                    },
+                                    "ribbon": {
+                                      
+                                    },
+                                    "type": "ITEM",
+                                    "itemBadge": {
+                                      
+                                    },
+                                    "badgesV2": {
+                                      
+                                    },
+                                    "ratings": {
+                                      "aggregatedRating": {
+                                        "rating": "4.2",
+                                        "ratingCount": "6 ratings",
+                                        "ratingCountV2": "6"
+                                      }
+                                    }
+                                  },
+                                  "analytics": {
+                                    
+                                  },
+                                  "hideRestaurantDetails": true
+                                }
+                              },
+                              {
+                                "card": {
+                                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                  "info": {
+                                    "id": "127243614",
+                                    "name": "Sangam Vada and Mirchi Bhaji [Serves 1]",
+                                    "category": "Navratri Specials",
+                                    "description": "Crispy fritters paired with mouthwatering lentil dumplings create a tempting Navratri delight.",
+                                    "inStock": 1,
+                                    "isVeg": 1,
+                                    "price": 6000,
+                                    "variants": {
+                                      
+                                    },
+                                    "variantsV2": {
+                                      
+                                    },
+                                    "itemAttribute": {
+                                      "vegClassifier": "VEG"
+                                    },
+                                    "ribbon": {
+                                      "text": "Bestseller",
+                                      "textColor": "#ffffff",
+                                      "topBackgroundColor": "#d53d4c",
+                                      "bottomBackgroundColor": "#b02331"
+                                    },
+                                    "type": "ITEM",
+                                    "itemBadge": {
+                                      
+                                    },
+                                    "badgesV2": {
+                                      
+                                    },
+                                    "isBestseller": true,
+                                    "ratings": {
+                                      "aggregatedRating": {
+                                        "rating": "5.0",
+                                        "ratingCount": "3 ratings",
+                                        "ratingCountV2": "3"
+                                      }
+                                    }
+                                  },
+                                  "analytics": {
+                                    
+                                  },
+                                  "hideRestaurantDetails": true
+                                }
+                              }
+                            ],
+                            "subtitleSuffix": {
+                              
+                            },
+                            "categoryId": "41947506"
+                          },
+                          {
+                            "title": "Specials",
+                            "itemCards": [
+                              {
+                                "card": {
+                                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                  "info": {
+                                    "id": "127243610",
+                                    "name": "Sangam Vada and Mirchi Bhaji",
+                                    "category": "Navratri Specials",
+                                    "description": "A divine combination of crispy vada and delectable mirchi bhaji that embodies the essence of Navratri flavors.",
+                                    "inStock": 1,
+                                    "isVeg": 1,
+                                    "price": 6000,
+                                    "variants": {
+                                      
+                                    },
+                                    "variantsV2": {
+                                      
+                                    },
+                                    "itemAttribute": {
+                                      "vegClassifier": "VEG"
+                                    },
+                                    "ribbon": {
+                                      "text": "Bestseller",
+                                      "textColor": "#ffffff",
+                                      "topBackgroundColor": "#d53d4c",
+                                      "bottomBackgroundColor": "#b02331"
+                                    },
+                                    "type": "ITEM",
+                                    "itemBadge": {
+                                      
+                                    },
+                                    "badgesV2": {
+                                      
+                                    },
+                                    "isBestseller": true,
+                                    "ratings": {
+                                      "aggregatedRating": {
+                                        "rating": "4.9",
+                                        "ratingCount": "10 ratings",
+                                        "ratingCountV2": "10"
+                                      }
+                                    }
+                                  },
+                                  "analytics": {
+                                    
+                                  },
+                                  "hideRestaurantDetails": true
+                                }
+                              },
+                              {
+                                "card": {
+                                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                  "info": {
+                                    "id": "127243607",
+                                    "name": "Vada Pav and Sangam Vada",
+                                    "category": "Navratri Specials",
+                                    "description": "A flavorful blend of traditional Indian flavors, perfect for Navratri, featuring a delectable vegetarian Vada Pav and Sangam Vada.",
+                                    "imageId": "9b1e7b767f8c7c7e8f64033f5743476d",
+                                    "inStock": 1,
+                                    "isVeg": 1,
+                                    "price": 4500,
+                                    "variants": {
+                                      
+                                    },
+                                    "variantsV2": {
+                                      
+                                    },
+                                    "itemAttribute": {
+                                      "vegClassifier": "VEG"
+                                    },
+                                    "ribbon": {
+                                      
+                                    },
+                                    "type": "ITEM",
+                                    "itemBadge": {
+                                      
+                                    },
+                                    "badgesV2": {
+                                      
+                                    },
+                                    "ratings": {
+                                      "aggregatedRating": {
+                                        "rating": "3.8",
+                                        "ratingCount": "15 ratings",
+                                        "ratingCountV2": "15"
+                                      }
+                                    }
+                                  },
+                                  "analytics": {
+                                    
+                                  },
+                                  "hideRestaurantDetails": true
+                                }
+                              }
+                            ],
+                            "subtitleSuffix": {
+                              
+                            },
+                            "categoryId": "41947505"
+                          }
+                        ],
+                        "image": "9b1e7b767f8c7c7e8f64033f5743476d",
+                        "categoryId": "41947501"
+                      }
+                    }
+                  },
+                  {
+                    "card": {
+                      "card": {
+                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.NestedItemCategory",
+                        "title": "Snacks",
+                        "categories": [
+                          {
+                            "title": "Snacks",
+                            "itemCards": [
+                              {
+                                "card": {
+                                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                  "info": {
+                                    "id": "37033693",
+                                    "name": "Sangam Vada",
+                                    "category": "Snacks",
+                                    "description": "A delightful Indian snack offering a harmonious blend of flavors and textures, perfect for any time of the day.",
+                                    "imageId": "lasvave5zm8jounloaey",
+                                    "inStock": 1,
+                                    "isVeg": 1,
+                                    "price": 2000,
+                                    "variants": {
+                                      
+                                    },
+                                    "variantsV2": {
+                                      
+                                    },
+                                    "itemAttribute": {
+                                      "vegClassifier": "VEG"
+                                    },
+                                    "ribbon": {
+                                      
+                                    },
+                                    "type": "ITEM",
+                                    "itemBadge": {
+                                      
+                                    },
+                                    "badgesV2": {
+                                      
+                                    },
+                                    "ratings": {
+                                      "aggregatedRating": {
+                                        "rating": "4.4",
+                                        "ratingCount": "258 ratings",
+                                        "ratingCountV2": "258"
+                                      }
+                                    }
+                                  },
+                                  "analytics": {
+                                    
+                                  },
+                                  "hideRestaurantDetails": true
+                                }
+                              }
+                            ],
+                            "subtitleSuffix": {
+                              
+                            },
+                            "categoryId": "41947503"
+                          }
+                        ],
+                        "image": "lasvave5zm8jounloaey",
+                        "categoryId": "5537752"
+                      }
+                    }
+                  },
+                  {
+                    "card": {
+                      "card": {
+                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.NestedItemCategory",
+                        "title": "Vada Pav",
+                        "categories": [
+                          {
+                            "title": "Vada Pav",
+                            "itemCards": [
+                              {
+                                "card": {
+                                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                  "info": {
+                                    "id": "127243615",
+                                    "name": "Vada Pav",
+                                    "category": "Vada Pav",
+                                    "description": "Mouthwatering Indian street food that packs a flavorful punch.",
+                                    "imageId": "a30539d02960247a7510508c40dcca3b",
+                                    "inStock": 1,
+                                    "isVeg": 1,
+                                    "price": 2200,
+                                    "variants": {
+                                      
+                                    },
+                                    "variantsV2": {
+                                      
+                                    },
+                                    "itemAttribute": {
+                                      "vegClassifier": "VEG"
+                                    },
+                                    "ribbon": {
+                                      
+                                    },
+                                    "type": "ITEM",
+                                    "itemBadge": {
+                                      
+                                    },
+                                    "badgesV2": {
+                                      
+                                    },
+                                    "ratings": {
+                                      "aggregatedRating": {
+                                        "rating": "4.3",
+                                        "ratingCount": "42 ratings",
+                                        "ratingCountV2": "42"
+                                      }
+                                    }
+                                  },
+                                  "analytics": {
+                                    
+                                  },
+                                  "hideRestaurantDetails": true
+                                }
+                              }
+                            ],
+                            "subtitleSuffix": {
+                              
+                            },
+                            "categoryId": "41947504"
+                          }
+                        ],
+                        "image": "a30539d02960247a7510508c40dcca3b",
+                        "categoryId": "41947502"
+                      }
+                    }
+                  },
+                  {
+                    "card": {
+                      "card": {
+                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantLicenseInfo",
+                        "type": "FSSAI",
+                        "imageId": "fssai_final_edss9i",
+                        "text": [
+                          "License No. 21511243000130"
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "card": {
+                      "card": {
+                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantAddress",
+                        "name": "SS Bhandu Puneri Vada Pav",
+                        "area": "Solapur Locality",
+                        "completeAddress": "12, Murarji Peth, Navives, Opp. To Police Station, Solapur 413001."
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "firstOffsetRequest": true,
+      "isQCLink": false
+    },
+    "tid": "d4831ecd-4b38-4c69-a1c4-e367b418a4f7",
+    "sid": "jh4f0802-2a78-4ed5-aaff-9ac7d9fc8168",
+    "deviceId": "ae48c84e-fd25-cd1d-3f38-4daa217aec4c",
+    "csrfToken": "uZvNq6hadYl8-DI2LQ09gyYZ8nsZMXX-zLup2BOA"
+  }

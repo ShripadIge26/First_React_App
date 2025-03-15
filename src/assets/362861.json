@@ -1,0 +1,2855 @@
+
+{
+    "statusCode": 0,
+    "data": {
+      "statusMessage": "done successfully",
+      "cards": [
+        {
+          "card": {
+            "card": {
+              "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.TextBoxV2",
+              "text": "Little Cake Shop",
+              "headerStyling": {
+                "textColor": "text_Highest_Emphasis",
+                "textVariant": "header_H3_Black"
+              }
+            }
+          }
+        },
+        {
+          "card": {
+            "card": {
+              "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.RestaurantBlTab",
+              "tabs": [
+                {
+                  "id": "Order Online",
+                  "title": "Order Online"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "card": {
+            "card": {
+              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+              "info": {
+                "id": "362861",
+                "name": "Little Cake Shop",
+                "city": "Solapur",
+                "slugs": {
+                  "restaurant": "little-cake-shop-hotgi-road-hotgi-road",
+                  "city": "solapur"
+                },
+                "uniqueId": "e51e6528-4859-48c8-8fed-e84c17dc2d76",
+                "cloudinaryImageId": "pivffy24qkbzmzz43bxm",
+                "locality": "Hotgi Road",
+                "areaName": "Solapur Locality",
+                "costForTwo": "30000",
+                "costForTwoMessage": "₹300 for two",
+                "cuisines": [
+                  "Bakery",
+                  "Sweets"
+                ],
+                "avgRating": 4.2,
+                "veg": true,
+                "feeDetails": {
+                  "restaurantId": "362861",
+                  "fees": [
+                    {
+                      
+                    }
+                  ]
+                },
+                "parentId": "125432",
+                "avgRatingString": "4.2",
+                "totalRatingsString": "250 ratings",
+                "sla": {
+                  "restaurantId": "362861",
+                  "deliveryTime": 25,
+                  "minDeliveryTime": 25,
+                  "maxDeliveryTime": 30,
+                  "lastMileTravel": 3.9,
+                  "serviceability": "SERVICEABLE",
+                  "stressFactor": 1,
+                  "rainMode": "RAIN_MODE_NONE",
+                  "longDistance": "LONG_DISTANCE_NOT_LONG_DISTANCE",
+                  "zoneId": 1034,
+                  "slaString": "25-30 MINS",
+                  "lastMileTravelString": "3.9 km",
+                  "iconType": "ICON_TYPE_EMPTY"
+                },
+                "availability": {
+                  "nextCloseTime": "2025-03-15 22:30:00",
+                  "visibility": true,
+                  "opened": true,
+                  "restaurantClosedMeta": {
+                    
+                  }
+                },
+                "aggregatedDiscountInfo": {
+                  "header": "20% off",
+                  "shortDescriptionList": [
+                    {
+                      "meta": "20% off | Use TRYNEW",
+                      "discountType": "Percentage",
+                      "operationType": "RESTAURANT"
+                    },
+                    {
+                      "meta": "Flat ₹300 off  | Use code NEWYEARPARTY",
+                      "discountType": "Flat",
+                      "operationType": "RESTAURANT"
+                    }
+                  ],
+                  "descriptionList": [
+                    {
+                      "meta": "20% off up to ₹50 | Use code TRYNEW",
+                      "discountType": "Percentage",
+                      "operationType": "RESTAURANT"
+                    },
+                    {
+                      "meta": "Flat ₹300 off  | Use code NEWYEARPARTY",
+                      "discountType": "Flat",
+                      "operationType": "RESTAURANT"
+                    }
+                  ],
+                  "visible": true
+                },
+                "badges": {
+                  
+                },
+                "slugString": "little-cake-shop-hotgi-road-hotgi-road",
+                "isOpen": true,
+                "labels": [
+                  {
+                    "title": "Timings",
+                    "message": "null"
+                  },
+                  {
+                    "title": "Address",
+                    "message": "Gawli vasti MIDC camma Building Block no. 4"
+                  },
+                  {
+                    "title": "Cuisines",
+                    "message": "Bakery,Sweets"
+                  }
+                ],
+                "totalRatings": 250,
+                "aggregatedDiscountInfoV2": {
+                  "header": "20% off",
+                  "shortDescriptionList": [
+                    {
+                      "meta": "20% off | Use TRYNEW",
+                      "discountType": "Percentage",
+                      "operationType": "RESTAURANT"
+                    },
+                    {
+                      "meta": "Flat ₹300 off  | Use code NEWYEARPARTY",
+                      "discountType": "Flat",
+                      "operationType": "RESTAURANT"
+                    }
+                  ],
+                  "descriptionList": [
+                    {
+                      "meta": "20% off up to ₹50 | Use code TRYNEW",
+                      "discountType": "Percentage",
+                      "operationType": "RESTAURANT"
+                    },
+                    {
+                      "meta": "Flat ₹300 off  | Use code NEWYEARPARTY",
+                      "discountType": "Flat",
+                      "operationType": "RESTAURANT"
+                    }
+                  ],
+                  "couponDetailsCta": "View coupon details"
+                },
+                "type": "F",
+                "nudgeBanners": [
+                  {
+                    "minValue": 839,
+                    "maxValue": 1199,
+                    "priority": 2,
+                    "couponCode": "NEWYEARPARTY",
+                    "discountInfo": {
+                      "discountType": "Flat",
+                      "value": 300
+                    },
+                    "lockedMessage": "Add items worth ₹<amount> to save ₹300 | Code NEWYEARPARTY",
+                    "unlockedMessage": "NEWYEARPARTY Coupon Unlocked! Use it to save ₹300",
+                    "logoCtx": {
+                      
+                    }
+                  }
+                ],
+                "headerBanner": {
+                  "url": "swiggy://webview?is_external=false&webview_url=https://www.swiggy.com/restaurant-info/362861"
+                },
+                "ratingSlab": "RATING_SLAB_5",
+                "orderabilityCommunication": {
+                  "title": {
+                    
+                  },
+                  "subTitle": {
+                    
+                  },
+                  "message": {
+                    
+                  },
+                  "customIcon": {
+                    
+                  },
+                  "commsStyling": {
+                    
+                  }
+                },
+                "hasBestsellerItems": true,
+                "cartOrderabilityNudgeBanner": {
+                  "parameters": {
+                    
+                  },
+                  "presentation": {
+                    
+                  }
+                },
+                "latLong": "17.65240928,75.93701836",
+                "backgroundImageOverlayInfo": {
+                  
+                },
+                "featuredSectionInfo": {
+                  
+                }
+              },
+              "analytics": {
+                
+              }
+            },
+            "relevance": {
+              "type": "RELEVANCE_TYPE_CHECK_ORDERABILITY_ON_ITEM_ADD",
+              "sectionId": "POP_UP_CROUTON_MENU"
+            }
+          }
+        },
+        {
+          "card": {
+            "card": {
+              "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.GridWidget",
+              "layout": {
+                "rows": 1,
+                "columns": 5,
+                "horizontalScrollEnabled": true,
+                "itemSpacing": 12,
+                "lineSpacing": 10,
+                "widgetPadding": {
+                  
+                },
+                "containerStyle": {
+                  "containerPadding": {
+                    "left": 10,
+                    "right": 10,
+                    "bottom": 16
+                  }
+                },
+                "scrollBar": {
+                  
+                }
+              },
+              "id": "offerCollectionWidget_UX4",
+              "gridElements": {
+                "infoWithStyle": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.OfferInfoWithStyle",
+                  "offers": [
+                    {
+                      "info": {
+                        "header": "20% OFF UPTO ₹50",
+                        "offerTagColor": "#E46D47",
+                        "offerIds": [
+                          "472b308d-979c-4d54-8adb-f4ea2cb9100a"
+                        ],
+                        "expiryTime": "1970-01-01T00:00:00Z",
+                        "couponCode": "USE TRYNEW",
+                        "description": "ABOVE ₹149",
+                        "offerType": "offers",
+                        "restId": "362861",
+                        "offerLogo": "offers/generic",
+                        "descriptionTextColor": "#7302060C",
+                        "primaryDescription": "USE TRYNEW"
+                      },
+                      "cta": {
+                        "type": "OFFER_HALF_CARD"
+                      }
+                    },
+                    {
+                      "info": {
+                        "header": "FLAT ₹300 OFF",
+                        "offerTag": "DEFAULT",
+                        "offerTagColor": "#E46D47",
+                        "offerIds": [
+                          "92323fbf-d29d-42e7-a028-937d5a3c44b7"
+                        ],
+                        "expiryTime": "1970-01-01T00:00:00Z",
+                        "couponCode": "USE NEWYEARPARTY",
+                        "description": "ABOVE ₹1199",
+                        "offerType": "offers",
+                        "restId": "362861",
+                        "offerLogo": "offers/generic",
+                        "descriptionTextColor": "#7302060C",
+                        "primaryDescription": "USE NEWYEARPARTY"
+                      },
+                      "cta": {
+                        "type": "OFFER_HALF_CARD"
+                      }
+                    },
+                    {
+                      "info": {
+                        "header": "FLAT 25% OFF",
+                        "offerTag": "DEFAULT",
+                        "offerTagColor": "#E46D47",
+                        "offerIds": [
+                          "2ee77e36-09c4-4b4b-a7d2-be0aa9bbdfcc"
+                        ],
+                        "expiryTime": "1970-01-01T00:00:00Z",
+                        "couponCode": "USE XTRAPARTY",
+                        "description": "ABOVE ₹1199",
+                        "offerType": "offers",
+                        "restId": "362861",
+                        "offerLogo": "offers/generic",
+                        "descriptionTextColor": "#7302060C",
+                        "primaryDescription": "USE XTRAPARTY"
+                      },
+                      "cta": {
+                        "type": "OFFER_HALF_CARD"
+                      }
+                    },
+                    {
+                      "info": {
+                        "header": "20% OFF UPTO ₹150",
+                        "offerTagColor": "#E46D47",
+                        "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2025/3/5/b13ec064-4e06-4fbe-a5a5-7e13bb2f5757_AMEXMenuLogo.png",
+                        "offerIds": [
+                          "31782a08-64d1-41e6-8797-fa951b252932"
+                        ],
+                        "expiryTime": "1970-01-01T00:00:00Z",
+                        "couponCode": "USE AMEXCORP",
+                        "description": "ABOVE ₹699",
+                        "offerType": "offers",
+                        "restId": "362861",
+                        "offerLogo": "MARKETING_BANNERS/IMAGES/OFFERS/2025/3/5/b13ec064-4e06-4fbe-a5a5-7e13bb2f5757_AMEXMenuLogo.png",
+                        "descriptionTextColor": "#7302060C",
+                        "primaryDescription": "USE AMEXCORP"
+                      },
+                      "cta": {
+                        "type": "OFFER_HALF_CARD"
+                      }
+                    },
+                    {
+                      "info": {
+                        "header": "15% OFF UPTO ₹125",
+                        "offerTagColor": "#E46D47",
+                        "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2025/3/12/73959cd9-19f7-4c6d-a2ef-6440aee76fa1_RBLMenuVisibilityLogo.png",
+                        "offerIds": [
+                          "9f6aca08-12cd-410b-8e46-c361f7dddfd9"
+                        ],
+                        "expiryTime": "1970-01-01T00:00:00Z",
+                        "couponCode": "USE RBLCC125",
+                        "description": "ABOVE ₹599",
+                        "offerType": "offers",
+                        "restId": "362861",
+                        "offerLogo": "MARKETING_BANNERS/IMAGES/OFFERS/2025/3/12/73959cd9-19f7-4c6d-a2ef-6440aee76fa1_RBLMenuVisibilityLogo.png",
+                        "descriptionTextColor": "#7302060C",
+                        "primaryDescription": "USE RBLCC125"
+                      },
+                      "cta": {
+                        "type": "OFFER_HALF_CARD"
+                      }
+                    }
+                  ],
+                  "habitMilestoneInfo": {
+                    "callout": {
+                      
+                    }
+                  },
+                  "loyaltyDiscoverPresentationInfo": {
+                    "logoCtx": {
+                      
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "groupedCard": {
+            "cardGroupMap": {
+              "REGULAR": {
+                "cards": [
+                  {
+                    "card": {
+                      "card": {
+                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.MenuVegFilterAndBadge",
+                        "isPureVeg": true,
+                        "badges": {
+                          
+                        },
+                        "vegOnlyDetails": {
+                          "imageId": "AutoVegOnly_qkjowj",
+                          "title": "Showing only vegetarian options.",
+                          "description": "Tap on the VEG ONLY button to turn off the setting"
+                        },
+                        "topRatedFilter": {
+                          "attributes": {
+                            "displayText": "Ratings 4.0+"
+                          }
+                        },
+                        "kidsCategoryFilter": {
+                          "attributes": {
+                            "displayText": "Kids Favourites",
+                            "tooltip": {
+                              "enabled": true,
+                              "displayText": "Kids Favourites Filter applied. Remove this filter to see the full Menu."
+                            }
+                          }
+                        },
+                        "vegFilter": {
+                          "attributes": {
+                            "displayText": "VEG"
+                          }
+                        },
+                        "nonvegFilter": {
+                          "attributes": {
+                            "displayText": "NONVEG"
+                          }
+                        }
+                      },
+                      "relevance": {
+                        "type": "RELEVANCE_TYPE_ON_MENU_FILTER_TOGGLED",
+                        "sectionId": "MENU_FILTER_TOGGLE"
+                      }
+                    }
+                  },
+                  {
+                    "card": {
+                      "card": {
+                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.MenuCarousel",
+                        "title": "Top Picks",
+                        "carousel": [
+                          {
+                            "type": "TopCarousel",
+                            "subtype": "image",
+                            "bannerId": "3565281",
+                            "creativeId": "TopPicks2024/127470889C.png",
+                            "title": "Kulfi Cake [500 grams]",
+                            "description": " ",
+                            "fontColor": "#FFFFFF",
+                            "dish": {
+                              "info": {
+                                "id": "127470889",
+                                "name": "Kulfi Cake [500 grams]",
+                                "category": "Cakes",
+                                "description": "A delectable fusion of creamy kulfi and moist cake, this indulgent treat is a must-try for cake lovers seeking a unique and delightful experience.",
+                                "imageId": "cdeef1520526e1f7921369ebb426795f",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "price": 34000,
+                                "variants": {
+                                  "variantGroups": [
+                                    {
+                                      "groupId": "49057243",
+                                      "name": "Quantity",
+                                      "variations": [
+                                        {
+                                          "name": "Serves 1",
+                                          "default": 1,
+                                          "id": "154259482",
+                                          "inStock": 1,
+                                          "isVeg": 1,
+                                          "isEnabled": 1
+                                        },
+                                        {
+                                          "name": "Serves 2",
+                                          "price": 34000,
+                                          "id": "154259485",
+                                          "inStock": 1,
+                                          "isVeg": 1,
+                                          "isEnabled": 1
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                "variantsV2": {
+                                  
+                                },
+                                "itemAttribute": {
+                                  "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                  "text": "Bestseller",
+                                  "textColor": "#ffffff",
+                                  "topBackgroundColor": "#d53d4c",
+                                  "bottomBackgroundColor": "#b02331"
+                                },
+                                "itemBadge": {
+                                  
+                                },
+                                "badgesV2": {
+                                  
+                                },
+                                "isBestseller": true
+                              },
+                              "analytics": {
+                                
+                              },
+                              "hideRestaurantDetails": true
+                            }
+                          },
+                          {
+                            "type": "TopCarousel",
+                            "subtype": "image",
+                            "bannerId": "3565284",
+                            "creativeId": "TopPicks2024/127470886C.png",
+                            "title": "Butterscotch Cake [500 grams]",
+                            "description": " ",
+                            "fontColor": "#FFFFFF",
+                            "dish": {
+                              "info": {
+                                "id": "127470886",
+                                "name": "Butterscotch Cake [500 grams]",
+                                "category": "Cakes",
+                                "description": "Indulge in the rich and buttery delight of our delectable Butterscotch Cake!",
+                                "imageId": "64734ca56a12a8d881d431010dc319c4",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "price": 28000,
+                                "variants": {
+                                  "variantGroups": [
+                                    {
+                                      "groupId": "49057225",
+                                      "name": "Quantity",
+                                      "variations": [
+                                        {
+                                          "name": "Serves 1",
+                                          "default": 1,
+                                          "id": "154259448",
+                                          "inStock": 1,
+                                          "isVeg": 1,
+                                          "isEnabled": 1
+                                        },
+                                        {
+                                          "name": "Serves 2",
+                                          "price": 28000,
+                                          "id": "154259451",
+                                          "inStock": 1,
+                                          "isVeg": 1,
+                                          "isEnabled": 1
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                "variantsV2": {
+                                  
+                                },
+                                "itemAttribute": {
+                                  "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                  
+                                },
+                                "itemBadge": {
+                                  
+                                },
+                                "badgesV2": {
+                                  
+                                }
+                              },
+                              "analytics": {
+                                
+                              },
+                              "hideRestaurantDetails": true
+                            }
+                          },
+                          {
+                            "type": "TopCarousel",
+                            "subtype": "image",
+                            "bannerId": "3565285",
+                            "creativeId": "TopPicks2024/127470888C.png",
+                            "title": "Rose Gulkand Cake [500 grams]",
+                            "description": " ",
+                            "fontColor": "#FFFFFF",
+                            "dish": {
+                              "info": {
+                                "id": "127470888",
+                                "name": "Rose Gulkand Cake [500 grams]",
+                                "category": "Cakes",
+                                "description": "Indulge in the delectable delight of this enticing, fragrant cake adorned with the sweetness of rose gulkand.",
+                                "imageId": "733415b7fa61ff9afdfa3c626976ff12",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "price": 28000,
+                                "variants": {
+                                  "variantGroups": [
+                                    {
+                                      "groupId": "49057234",
+                                      "name": "Quantity",
+                                      "variations": [
+                                        {
+                                          "name": "Serves 1",
+                                          "default": 1,
+                                          "id": "154259465",
+                                          "inStock": 1,
+                                          "isVeg": 1,
+                                          "isEnabled": 1
+                                        },
+                                        {
+                                          "name": "Serves 2",
+                                          "price": 28000,
+                                          "id": "154259467",
+                                          "inStock": 1,
+                                          "isVeg": 1,
+                                          "isEnabled": 1
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                "variantsV2": {
+                                  
+                                },
+                                "itemAttribute": {
+                                  "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                  "text": "Bestseller",
+                                  "textColor": "#ffffff",
+                                  "topBackgroundColor": "#d53d4c",
+                                  "bottomBackgroundColor": "#b02331"
+                                },
+                                "itemBadge": {
+                                  
+                                },
+                                "badgesV2": {
+                                  
+                                },
+                                "isBestseller": true
+                              },
+                              "analytics": {
+                                
+                              },
+                              "hideRestaurantDetails": true
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "card": {
+                      "card": {
+                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                        "title": "Recommended",
+                        "itemCards": [
+                          {
+                            "card": {
+                              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                              "info": {
+                                "id": "127470882",
+                                "name": "Choco Vanilla Cake [500 grams]",
+                                "category": "Cakes",
+                                "description": "Indulge in the irresistible delight of this heavenly chocolate and vanilla cake, a true treat for your taste buds.",
+                                "imageId": "b63725a33cd91270b6811f70b3deeed0",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "price": 26000,
+                                "variants": {
+                                  "variantGroups": [
+                                    {
+                                      "groupId": "49057207",
+                                      "name": "Quantity",
+                                      "variations": [
+                                        {
+                                          "name": "Serves 1",
+                                          "default": 1,
+                                          "id": "154259408",
+                                          "inStock": 1,
+                                          "isVeg": 1,
+                                          "isEnabled": 1
+                                        },
+                                        {
+                                          "name": "Serves 2",
+                                          "price": 26000,
+                                          "id": "154259411",
+                                          "inStock": 1,
+                                          "isVeg": 1,
+                                          "isEnabled": 1
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                "variantsV2": {
+                                  
+                                },
+                                "itemAttribute": {
+                                  "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                  "text": "Bestseller",
+                                  "textColor": "#ffffff",
+                                  "topBackgroundColor": "#d53d4c",
+                                  "bottomBackgroundColor": "#b02331"
+                                },
+                                "showImage": true,
+                                "itemBadge": {
+                                  
+                                },
+                                "badgesV2": {
+                                  
+                                },
+                                "isBestseller": true,
+                                "ratings": {
+                                  "aggregatedRating": {
+                                    "rating": "4.1",
+                                    "ratingCount": "11 ratings",
+                                    "ratingCountV2": "11"
+                                  }
+                                }
+                              },
+                              "analytics": {
+                                
+                              },
+                              "hideRestaurantDetails": true
+                            }
+                          },
+                          {
+                            "card": {
+                              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                              "info": {
+                                "id": "127470896",
+                                "name": "Rocher Chocolate Cake [500 grams]",
+                                "category": "Cakes",
+                                "description": "Decadent chocolate cake with a delightful surprise inside, perfect for any celebration or indulgent treat.",
+                                "imageId": "82ac139c9d61f81d9a7c1ea3a1d515ea",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "price": 28000,
+                                "variants": {
+                                  "variantGroups": [
+                                    {
+                                      "groupId": "49057278",
+                                      "name": "Quantity",
+                                      "variations": [
+                                        {
+                                          "name": "Serves 1",
+                                          "default": 1,
+                                          "id": "154259552",
+                                          "inStock": 1,
+                                          "isVeg": 1,
+                                          "isEnabled": 1
+                                        },
+                                        {
+                                          "name": "Serves 2",
+                                          "price": 28000,
+                                          "id": "154259554",
+                                          "inStock": 1,
+                                          "isVeg": 1,
+                                          "isEnabled": 1
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                "variantsV2": {
+                                  
+                                },
+                                "itemAttribute": {
+                                  "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                  "text": "Bestseller",
+                                  "textColor": "#ffffff",
+                                  "topBackgroundColor": "#d53d4c",
+                                  "bottomBackgroundColor": "#b02331"
+                                },
+                                "showImage": true,
+                                "itemBadge": {
+                                  
+                                },
+                                "badgesV2": {
+                                  
+                                },
+                                "isBestseller": true,
+                                "ratings": {
+                                  "aggregatedRating": {
+                                    "rating": "3.3",
+                                    "ratingCount": "5 ratings",
+                                    "ratingCountV2": "5"
+                                  }
+                                }
+                              },
+                              "analytics": {
+                                
+                              },
+                              "hideRestaurantDetails": true
+                            }
+                          },
+                          {
+                            "card": {
+                              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                              "info": {
+                                "id": "127470893",
+                                "name": "Black Forest Cake [500 grams]",
+                                "category": "Cakes",
+                                "description": "Decadent chocolate cake layered with luscious cream and rich cherries, creating a heavenly delight.",
+                                "imageId": "d884586e834949bf9ca68c2a05517fd0",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "price": 28000,
+                                "variants": {
+                                  "variantGroups": [
+                                    {
+                                      "groupId": "49057254",
+                                      "name": "Quantity",
+                                      "variations": [
+                                        {
+                                          "name": "Serves 1",
+                                          "default": 1,
+                                          "id": "154259503",
+                                          "inStock": 1,
+                                          "isVeg": 1,
+                                          "isEnabled": 1
+                                        },
+                                        {
+                                          "name": "Serves 2",
+                                          "price": 28000,
+                                          "id": "154259507",
+                                          "inStock": 1,
+                                          "isVeg": 1,
+                                          "isEnabled": 1
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                "variantsV2": {
+                                  
+                                },
+                                "itemAttribute": {
+                                  "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                  "text": "Bestseller",
+                                  "textColor": "#ffffff",
+                                  "topBackgroundColor": "#d53d4c",
+                                  "bottomBackgroundColor": "#b02331"
+                                },
+                                "showImage": true,
+                                "itemBadge": {
+                                  
+                                },
+                                "badgesV2": {
+                                  
+                                },
+                                "isBestseller": true,
+                                "ratings": {
+                                  "aggregatedRating": {
+                                    "rating": "4.1",
+                                    "ratingCount": "8 ratings",
+                                    "ratingCountV2": "8"
+                                  }
+                                }
+                              },
+                              "analytics": {
+                                
+                              },
+                              "hideRestaurantDetails": true
+                            }
+                          },
+                          {
+                            "card": {
+                              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                              "info": {
+                                "id": "127470889",
+                                "name": "Kulfi Cake [500 grams]",
+                                "category": "Cakes",
+                                "description": "A delectable fusion of creamy kulfi and moist cake, this indulgent treat is a must-try for cake lovers seeking a unique and delightful experience.",
+                                "imageId": "cdeef1520526e1f7921369ebb426795f",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "price": 34000,
+                                "variants": {
+                                  "variantGroups": [
+                                    {
+                                      "groupId": "49057243",
+                                      "name": "Quantity",
+                                      "variations": [
+                                        {
+                                          "name": "Serves 1",
+                                          "default": 1,
+                                          "id": "154259482",
+                                          "inStock": 1,
+                                          "isVeg": 1,
+                                          "isEnabled": 1
+                                        },
+                                        {
+                                          "name": "Serves 2",
+                                          "price": 34000,
+                                          "id": "154259485",
+                                          "inStock": 1,
+                                          "isVeg": 1,
+                                          "isEnabled": 1
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                "variantsV2": {
+                                  
+                                },
+                                "itemAttribute": {
+                                  "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                  "text": "Bestseller",
+                                  "textColor": "#ffffff",
+                                  "topBackgroundColor": "#d53d4c",
+                                  "bottomBackgroundColor": "#b02331"
+                                },
+                                "showImage": true,
+                                "itemBadge": {
+                                  
+                                },
+                                "badgesV2": {
+                                  
+                                },
+                                "isBestseller": true,
+                                "ratings": {
+                                  "aggregatedRating": {
+                                    "rating": "4.4",
+                                    "ratingCount": "7 ratings",
+                                    "ratingCountV2": "7"
+                                  }
+                                }
+                              },
+                              "analytics": {
+                                
+                              },
+                              "hideRestaurantDetails": true
+                            }
+                          },
+                          {
+                            "card": {
+                              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                              "info": {
+                                "id": "127470888",
+                                "name": "Rose Gulkand Cake [500 grams]",
+                                "category": "Cakes",
+                                "description": "Indulge in the delectable delight of this enticing, fragrant cake adorned with the sweetness of rose gulkand.",
+                                "imageId": "733415b7fa61ff9afdfa3c626976ff12",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "price": 28000,
+                                "variants": {
+                                  "variantGroups": [
+                                    {
+                                      "groupId": "49057234",
+                                      "name": "Quantity",
+                                      "variations": [
+                                        {
+                                          "name": "Serves 1",
+                                          "default": 1,
+                                          "id": "154259465",
+                                          "inStock": 1,
+                                          "isVeg": 1,
+                                          "isEnabled": 1
+                                        },
+                                        {
+                                          "name": "Serves 2",
+                                          "price": 28000,
+                                          "id": "154259467",
+                                          "inStock": 1,
+                                          "isVeg": 1,
+                                          "isEnabled": 1
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                "variantsV2": {
+                                  
+                                },
+                                "itemAttribute": {
+                                  "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                  "text": "Bestseller",
+                                  "textColor": "#ffffff",
+                                  "topBackgroundColor": "#d53d4c",
+                                  "bottomBackgroundColor": "#b02331"
+                                },
+                                "showImage": true,
+                                "itemBadge": {
+                                  
+                                },
+                                "badgesV2": {
+                                  
+                                },
+                                "isBestseller": true,
+                                "ratings": {
+                                  "aggregatedRating": {
+                                    "rating": "4.1",
+                                    "ratingCount": "4 ratings",
+                                    "ratingCountV2": "4"
+                                  }
+                                }
+                              },
+                              "analytics": {
+                                
+                              },
+                              "hideRestaurantDetails": true
+                            }
+                          },
+                          {
+                            "card": {
+                              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                              "info": {
+                                "id": "127470886",
+                                "name": "Butterscotch Cake [500 grams]",
+                                "category": "Cakes",
+                                "description": "Indulge in the rich and buttery delight of our delectable Butterscotch Cake!",
+                                "imageId": "64734ca56a12a8d881d431010dc319c4",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "price": 28000,
+                                "variants": {
+                                  "variantGroups": [
+                                    {
+                                      "groupId": "49057225",
+                                      "name": "Quantity",
+                                      "variations": [
+                                        {
+                                          "name": "Serves 1",
+                                          "default": 1,
+                                          "id": "154259448",
+                                          "inStock": 1,
+                                          "isVeg": 1,
+                                          "isEnabled": 1
+                                        },
+                                        {
+                                          "name": "Serves 2",
+                                          "price": 28000,
+                                          "id": "154259451",
+                                          "inStock": 1,
+                                          "isVeg": 1,
+                                          "isEnabled": 1
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                "variantsV2": {
+                                  
+                                },
+                                "itemAttribute": {
+                                  "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                  
+                                },
+                                "showImage": true,
+                                "itemBadge": {
+                                  
+                                },
+                                "badgesV2": {
+                                  
+                                },
+                                "ratings": {
+                                  "aggregatedRating": {
+                                    "rating": "3.6",
+                                    "ratingCount": "7 ratings",
+                                    "ratingCountV2": "7"
+                                  }
+                                }
+                              },
+                              "analytics": {
+                                
+                              },
+                              "hideRestaurantDetails": true
+                            }
+                          },
+                          {
+                            "card": {
+                              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                              "info": {
+                                "id": "127470895",
+                                "name": "White Choco Chips Cake [500 grams]",
+                                "category": "Cakes",
+                                "description": "A delightful vegetarian cake with creamy white chocolate chips that will satisfy your sweet tooth cravings.",
+                                "imageId": "e8fbc889e3427a59a1ed827d6fddb783",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "price": 32000,
+                                "variants": {
+                                  
+                                },
+                                "variantsV2": {
+                                  
+                                },
+                                "itemAttribute": {
+                                  "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                  "text": "Bestseller",
+                                  "textColor": "#ffffff",
+                                  "topBackgroundColor": "#d53d4c",
+                                  "bottomBackgroundColor": "#b02331"
+                                },
+                                "showImage": true,
+                                "itemBadge": {
+                                  
+                                },
+                                "badgesV2": {
+                                  
+                                },
+                                "isBestseller": true,
+                                "ratings": {
+                                  "aggregatedRating": {
+                                    
+                                  }
+                                }
+                              },
+                              "analytics": {
+                                
+                              },
+                              "hideRestaurantDetails": true
+                            }
+                          },
+                          {
+                            "card": {
+                              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                              "info": {
+                                "id": "127470883",
+                                "name": "Kiwi Cake [500 grams]",
+                                "category": "Cakes",
+                                "description": "A delightful fruity cake bursting with the refreshing flavors of kiwi, perfect for dessert lovers.",
+                                "imageId": "b839f9b552a9de18129bd9800198ea71",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "price": 25000,
+                                "variants": {
+                                  
+                                },
+                                "variantsV2": {
+                                  
+                                },
+                                "itemAttribute": {
+                                  "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                  "text": "Bestseller",
+                                  "textColor": "#ffffff",
+                                  "topBackgroundColor": "#d53d4c",
+                                  "bottomBackgroundColor": "#b02331"
+                                },
+                                "showImage": true,
+                                "itemBadge": {
+                                  
+                                },
+                                "badgesV2": {
+                                  
+                                },
+                                "isBestseller": true,
+                                "ratings": {
+                                  "aggregatedRating": {
+                                    
+                                  }
+                                }
+                              },
+                              "analytics": {
+                                
+                              },
+                              "hideRestaurantDetails": true
+                            }
+                          },
+                          {
+                            "card": {
+                              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                              "info": {
+                                "id": "127470880",
+                                "name": "Orange Cake [500 grams]",
+                                "category": "Cakes",
+                                "description": "Indulge in a scrumptious and citrus-infused delight that will satisfy your sweet cravings with this Orange Cake.",
+                                "imageId": "b61684fb9e7466049987d610e449188b",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "price": 26000,
+                                "variants": {
+                                  "variantGroups": [
+                                    {
+                                      "groupId": "49057185",
+                                      "name": "Quantity",
+                                      "variations": [
+                                        {
+                                          "name": "Serves 1",
+                                          "default": 1,
+                                          "id": "154259368",
+                                          "inStock": 1,
+                                          "isVeg": 1,
+                                          "isEnabled": 1
+                                        },
+                                        {
+                                          "name": "Serves 2",
+                                          "price": 26000,
+                                          "id": "154259369",
+                                          "inStock": 1,
+                                          "isVeg": 1,
+                                          "isEnabled": 1
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                "variantsV2": {
+                                  
+                                },
+                                "itemAttribute": {
+                                  "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                  
+                                },
+                                "showImage": true,
+                                "itemBadge": {
+                                  
+                                },
+                                "badgesV2": {
+                                  
+                                },
+                                "ratings": {
+                                  "aggregatedRating": {
+                                    "rating": "4.2",
+                                    "ratingCount": "4 ratings",
+                                    "ratingCountV2": "4"
+                                  }
+                                }
+                              },
+                              "analytics": {
+                                
+                              },
+                              "hideRestaurantDetails": true
+                            }
+                          },
+                          {
+                            "card": {
+                              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                              "info": {
+                                "id": "127470879",
+                                "name": "Vanilla Cake [500 grams]",
+                                "category": "Cakes",
+                                "description": "A heavenly vanilla cake that satisfies any sweet tooth with its irresistible flavor.",
+                                "imageId": "cb589a5953dca4c4e1d741fa27572701",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "price": 25000,
+                                "variants": {
+                                  "variantGroups": [
+                                    {
+                                      "groupId": "49057179",
+                                      "name": "Quantity",
+                                      "variations": [
+                                        {
+                                          "name": "Serves 1",
+                                          "default": 1,
+                                          "id": "154259349",
+                                          "inStock": 1,
+                                          "isVeg": 1,
+                                          "isEnabled": 1
+                                        },
+                                        {
+                                          "name": "Serves 2",
+                                          "price": 25000,
+                                          "id": "154259352",
+                                          "inStock": 1,
+                                          "isVeg": 1,
+                                          "isEnabled": 1
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                "variantsV2": {
+                                  
+                                },
+                                "itemAttribute": {
+                                  "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                  
+                                },
+                                "showImage": true,
+                                "itemBadge": {
+                                  
+                                },
+                                "badgesV2": {
+                                  
+                                },
+                                "ratings": {
+                                  "aggregatedRating": {
+                                    
+                                  }
+                                }
+                              },
+                              "analytics": {
+                                
+                              },
+                              "hideRestaurantDetails": true
+                            }
+                          },
+                          {
+                            "card": {
+                              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                              "info": {
+                                "id": "127470901",
+                                "name": "Butterscotch Pastry",
+                                "category": "Pastries",
+                                "description": "Indulge in a delectable pastry that boasts the rich and irresistible flavors of butterscotch.",
+                                "imageId": "5c36b5cbff1eb216e7b21031c6dd7c27",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "price": 4000,
+                                "variants": {
+                                  "variantGroups": [
+                                    {
+                                      "groupId": "49057287",
+                                      "name": "Quantity",
+                                      "variations": [
+                                        {
+                                          "name": "Serves 1",
+                                          "default": 1,
+                                          "id": "154259571",
+                                          "inStock": 1,
+                                          "isVeg": 1,
+                                          "isEnabled": 1
+                                        },
+                                        {
+                                          "name": "Serves 2",
+                                          "price": 4000,
+                                          "id": "154259573",
+                                          "inStock": 1,
+                                          "isVeg": 1,
+                                          "isEnabled": 1
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                "variantsV2": {
+                                  
+                                },
+                                "itemAttribute": {
+                                  "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                  
+                                },
+                                "showImage": true,
+                                "itemBadge": {
+                                  
+                                },
+                                "badgesV2": {
+                                  
+                                },
+                                "ratings": {
+                                  "aggregatedRating": {
+                                    "rating": "3.7",
+                                    "ratingCount": "7 ratings",
+                                    "ratingCountV2": "7"
+                                  }
+                                }
+                              },
+                              "analytics": {
+                                
+                              },
+                              "hideRestaurantDetails": true
+                            }
+                          },
+                          {
+                            "card": {
+                              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                              "info": {
+                                "id": "127470902",
+                                "name": "Pan Masala Pastry",
+                                "category": "Pastries",
+                                "description": "A delightful and flavorful vegetarian pastry that is filled with a harmonious blend of aromatic herbs and spices.",
+                                "imageId": "31cd33fbf82e9a23056d80827b4553e6",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "price": 4000,
+                                "variants": {
+                                  "variantGroups": [
+                                    {
+                                      "groupId": "49057299",
+                                      "name": "Quantity",
+                                      "variations": [
+                                        {
+                                          "name": "Serves 1",
+                                          "default": 1,
+                                          "id": "154259595",
+                                          "inStock": 1,
+                                          "isVeg": 1,
+                                          "isEnabled": 1
+                                        },
+                                        {
+                                          "name": "Serves 2",
+                                          "price": 4000,
+                                          "id": "154259597",
+                                          "inStock": 1,
+                                          "isVeg": 1,
+                                          "isEnabled": 1
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                "variantsV2": {
+                                  
+                                },
+                                "itemAttribute": {
+                                  "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                  
+                                },
+                                "showImage": true,
+                                "itemBadge": {
+                                  
+                                },
+                                "badgesV2": {
+                                  
+                                },
+                                "ratings": {
+                                  "aggregatedRating": {
+                                    
+                                  }
+                                }
+                              },
+                              "analytics": {
+                                
+                              },
+                              "hideRestaurantDetails": true
+                            }
+                          }
+                        ],
+                        "type": "CATEGORY_TYPE_RECOMMENDED",
+                        "subtitleSuffix": {
+                          
+                        },
+                        "categoryId": "-1"
+                      }
+                    }
+                  },
+                  {
+                    "card": {
+                      "card": {
+                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                        "title": "Cakes",
+                        "itemCards": [
+                          {
+                            "card": {
+                              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                              "info": {
+                                "id": "127470882",
+                                "name": "Choco Vanilla Cake [500 grams]",
+                                "category": "Cakes",
+                                "description": "Indulge in the irresistible delight of this heavenly chocolate and vanilla cake, a true treat for your taste buds.",
+                                "imageId": "b63725a33cd91270b6811f70b3deeed0",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "price": 26000,
+                                "variants": {
+                                  "variantGroups": [
+                                    {
+                                      "groupId": "49057207",
+                                      "name": "Quantity",
+                                      "variations": [
+                                        {
+                                          "name": "Serves 1",
+                                          "default": 1,
+                                          "id": "154259408",
+                                          "inStock": 1,
+                                          "isVeg": 1,
+                                          "isEnabled": 1
+                                        },
+                                        {
+                                          "name": "Serves 2",
+                                          "price": 26000,
+                                          "id": "154259411",
+                                          "inStock": 1,
+                                          "isVeg": 1,
+                                          "isEnabled": 1
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                "variantsV2": {
+                                  
+                                },
+                                "itemAttribute": {
+                                  "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                  "text": "Bestseller",
+                                  "textColor": "#ffffff",
+                                  "topBackgroundColor": "#d53d4c",
+                                  "bottomBackgroundColor": "#b02331"
+                                },
+                                "type": "ITEM",
+                                "itemBadge": {
+                                  
+                                },
+                                "badgesV2": {
+                                  
+                                },
+                                "isBestseller": true,
+                                "ratings": {
+                                  "aggregatedRating": {
+                                    "rating": "4.1",
+                                    "ratingCount": "11 ratings",
+                                    "ratingCountV2": "11"
+                                  }
+                                }
+                              },
+                              "analytics": {
+                                
+                              },
+                              "hideRestaurantDetails": true
+                            }
+                          },
+                          {
+                            "card": {
+                              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                              "info": {
+                                "id": "127470896",
+                                "name": "Rocher Chocolate Cake [500 grams]",
+                                "category": "Cakes",
+                                "description": "Decadent chocolate cake with a delightful surprise inside, perfect for any celebration or indulgent treat.",
+                                "imageId": "82ac139c9d61f81d9a7c1ea3a1d515ea",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "price": 28000,
+                                "variants": {
+                                  "variantGroups": [
+                                    {
+                                      "groupId": "49057278",
+                                      "name": "Quantity",
+                                      "variations": [
+                                        {
+                                          "name": "Serves 1",
+                                          "default": 1,
+                                          "id": "154259552",
+                                          "inStock": 1,
+                                          "isVeg": 1,
+                                          "isEnabled": 1
+                                        },
+                                        {
+                                          "name": "Serves 2",
+                                          "price": 28000,
+                                          "id": "154259554",
+                                          "inStock": 1,
+                                          "isVeg": 1,
+                                          "isEnabled": 1
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                "variantsV2": {
+                                  
+                                },
+                                "itemAttribute": {
+                                  "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                  "text": "Bestseller",
+                                  "textColor": "#ffffff",
+                                  "topBackgroundColor": "#d53d4c",
+                                  "bottomBackgroundColor": "#b02331"
+                                },
+                                "type": "ITEM",
+                                "itemBadge": {
+                                  
+                                },
+                                "badgesV2": {
+                                  
+                                },
+                                "isBestseller": true,
+                                "ratings": {
+                                  "aggregatedRating": {
+                                    "rating": "3.3",
+                                    "ratingCount": "5 ratings",
+                                    "ratingCountV2": "5"
+                                  }
+                                }
+                              },
+                              "analytics": {
+                                
+                              },
+                              "hideRestaurantDetails": true
+                            }
+                          },
+                          {
+                            "card": {
+                              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                              "info": {
+                                "id": "127470893",
+                                "name": "Black Forest Cake [500 grams]",
+                                "category": "Cakes",
+                                "description": "Decadent chocolate cake layered with luscious cream and rich cherries, creating a heavenly delight.",
+                                "imageId": "d884586e834949bf9ca68c2a05517fd0",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "price": 28000,
+                                "variants": {
+                                  "variantGroups": [
+                                    {
+                                      "groupId": "49057254",
+                                      "name": "Quantity",
+                                      "variations": [
+                                        {
+                                          "name": "Serves 1",
+                                          "default": 1,
+                                          "id": "154259503",
+                                          "inStock": 1,
+                                          "isVeg": 1,
+                                          "isEnabled": 1
+                                        },
+                                        {
+                                          "name": "Serves 2",
+                                          "price": 28000,
+                                          "id": "154259507",
+                                          "inStock": 1,
+                                          "isVeg": 1,
+                                          "isEnabled": 1
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                "variantsV2": {
+                                  
+                                },
+                                "itemAttribute": {
+                                  "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                  "text": "Bestseller",
+                                  "textColor": "#ffffff",
+                                  "topBackgroundColor": "#d53d4c",
+                                  "bottomBackgroundColor": "#b02331"
+                                },
+                                "type": "ITEM",
+                                "itemBadge": {
+                                  
+                                },
+                                "badgesV2": {
+                                  
+                                },
+                                "isBestseller": true,
+                                "ratings": {
+                                  "aggregatedRating": {
+                                    "rating": "4.1",
+                                    "ratingCount": "8 ratings",
+                                    "ratingCountV2": "8"
+                                  }
+                                }
+                              },
+                              "analytics": {
+                                
+                              },
+                              "hideRestaurantDetails": true
+                            }
+                          },
+                          {
+                            "card": {
+                              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                              "info": {
+                                "id": "127470889",
+                                "name": "Kulfi Cake [500 grams]",
+                                "category": "Cakes",
+                                "description": "A delectable fusion of creamy kulfi and moist cake, this indulgent treat is a must-try for cake lovers seeking a unique and delightful experience.",
+                                "imageId": "cdeef1520526e1f7921369ebb426795f",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "price": 34000,
+                                "variants": {
+                                  "variantGroups": [
+                                    {
+                                      "groupId": "49057243",
+                                      "name": "Quantity",
+                                      "variations": [
+                                        {
+                                          "name": "Serves 1",
+                                          "default": 1,
+                                          "id": "154259482",
+                                          "inStock": 1,
+                                          "isVeg": 1,
+                                          "isEnabled": 1
+                                        },
+                                        {
+                                          "name": "Serves 2",
+                                          "price": 34000,
+                                          "id": "154259485",
+                                          "inStock": 1,
+                                          "isVeg": 1,
+                                          "isEnabled": 1
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                "variantsV2": {
+                                  
+                                },
+                                "itemAttribute": {
+                                  "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                  "text": "Bestseller",
+                                  "textColor": "#ffffff",
+                                  "topBackgroundColor": "#d53d4c",
+                                  "bottomBackgroundColor": "#b02331"
+                                },
+                                "type": "ITEM",
+                                "itemBadge": {
+                                  
+                                },
+                                "badgesV2": {
+                                  
+                                },
+                                "isBestseller": true,
+                                "ratings": {
+                                  "aggregatedRating": {
+                                    "rating": "4.4",
+                                    "ratingCount": "7 ratings",
+                                    "ratingCountV2": "7"
+                                  }
+                                }
+                              },
+                              "analytics": {
+                                
+                              },
+                              "hideRestaurantDetails": true
+                            }
+                          },
+                          {
+                            "card": {
+                              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                              "info": {
+                                "id": "127470888",
+                                "name": "Rose Gulkand Cake [500 grams]",
+                                "category": "Cakes",
+                                "description": "Indulge in the delectable delight of this enticing, fragrant cake adorned with the sweetness of rose gulkand.",
+                                "imageId": "733415b7fa61ff9afdfa3c626976ff12",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "price": 28000,
+                                "variants": {
+                                  "variantGroups": [
+                                    {
+                                      "groupId": "49057234",
+                                      "name": "Quantity",
+                                      "variations": [
+                                        {
+                                          "name": "Serves 1",
+                                          "default": 1,
+                                          "id": "154259465",
+                                          "inStock": 1,
+                                          "isVeg": 1,
+                                          "isEnabled": 1
+                                        },
+                                        {
+                                          "name": "Serves 2",
+                                          "price": 28000,
+                                          "id": "154259467",
+                                          "inStock": 1,
+                                          "isVeg": 1,
+                                          "isEnabled": 1
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                "variantsV2": {
+                                  
+                                },
+                                "itemAttribute": {
+                                  "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                  "text": "Bestseller",
+                                  "textColor": "#ffffff",
+                                  "topBackgroundColor": "#d53d4c",
+                                  "bottomBackgroundColor": "#b02331"
+                                },
+                                "type": "ITEM",
+                                "itemBadge": {
+                                  
+                                },
+                                "badgesV2": {
+                                  
+                                },
+                                "isBestseller": true,
+                                "ratings": {
+                                  "aggregatedRating": {
+                                    "rating": "4.1",
+                                    "ratingCount": "4 ratings",
+                                    "ratingCountV2": "4"
+                                  }
+                                }
+                              },
+                              "analytics": {
+                                
+                              },
+                              "hideRestaurantDetails": true
+                            }
+                          },
+                          {
+                            "card": {
+                              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                              "info": {
+                                "id": "127470886",
+                                "name": "Butterscotch Cake [500 grams]",
+                                "category": "Cakes",
+                                "description": "Indulge in the rich and buttery delight of our delectable Butterscotch Cake!",
+                                "imageId": "64734ca56a12a8d881d431010dc319c4",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "price": 28000,
+                                "variants": {
+                                  "variantGroups": [
+                                    {
+                                      "groupId": "49057225",
+                                      "name": "Quantity",
+                                      "variations": [
+                                        {
+                                          "name": "Serves 1",
+                                          "default": 1,
+                                          "id": "154259448",
+                                          "inStock": 1,
+                                          "isVeg": 1,
+                                          "isEnabled": 1
+                                        },
+                                        {
+                                          "name": "Serves 2",
+                                          "price": 28000,
+                                          "id": "154259451",
+                                          "inStock": 1,
+                                          "isVeg": 1,
+                                          "isEnabled": 1
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                "variantsV2": {
+                                  
+                                },
+                                "itemAttribute": {
+                                  "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                  
+                                },
+                                "type": "ITEM",
+                                "itemBadge": {
+                                  
+                                },
+                                "badgesV2": {
+                                  
+                                },
+                                "ratings": {
+                                  "aggregatedRating": {
+                                    "rating": "3.6",
+                                    "ratingCount": "7 ratings",
+                                    "ratingCountV2": "7"
+                                  }
+                                }
+                              },
+                              "analytics": {
+                                
+                              },
+                              "hideRestaurantDetails": true
+                            }
+                          },
+                          {
+                            "card": {
+                              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                              "info": {
+                                "id": "127470898",
+                                "name": "Oreo Chocolate Cake [500 grams]",
+                                "category": "Cakes",
+                                "description": "Decadent chocolate cake layered with irresistible Oreo goodness.",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "price": 30000,
+                                "variants": {
+                                  
+                                },
+                                "variantsV2": {
+                                  
+                                },
+                                "itemAttribute": {
+                                  "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                  
+                                },
+                                "type": "ITEM",
+                                "itemBadge": {
+                                  
+                                },
+                                "badgesV2": {
+                                  
+                                },
+                                "ratings": {
+                                  "aggregatedRating": {
+                                    
+                                  }
+                                }
+                              },
+                              "analytics": {
+                                
+                              },
+                              "hideRestaurantDetails": true
+                            }
+                          },
+                          {
+                            "card": {
+                              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                              "info": {
+                                "id": "127470884",
+                                "name": "Blueberry Cake [500 grams]",
+                                "category": "Cakes",
+                                "description": "A lusciously moist blueberry cake that promises a burst of sweet fruity flavors in every bite.",
+                                "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/1/14/0f0a9927-5cd1-4c40-8d43-bf9488171877_7c4f2547-cf85-4093-b7a1-3e063bbdf6d8.JPG",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "price": 25000,
+                                "variants": {
+                                  "variantGroups": [
+                                    {
+                                      "groupId": "49057214",
+                                      "name": "Quantity",
+                                      "variations": [
+                                        {
+                                          "name": "Serves 1",
+                                          "default": 1,
+                                          "id": "154259425",
+                                          "inStock": 1,
+                                          "isVeg": 1,
+                                          "isEnabled": 1
+                                        },
+                                        {
+                                          "name": "Serves 2",
+                                          "price": 25000,
+                                          "id": "154259428",
+                                          "inStock": 1,
+                                          "isVeg": 1,
+                                          "isEnabled": 1
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                "variantsV2": {
+                                  
+                                },
+                                "itemAttribute": {
+                                  "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                  
+                                },
+                                "type": "ITEM",
+                                "itemBadge": {
+                                  
+                                },
+                                "badgesV2": {
+                                  
+                                },
+                                "ratings": {
+                                  "aggregatedRating": {
+                                    
+                                  }
+                                }
+                              },
+                              "analytics": {
+                                
+                              },
+                              "hideRestaurantDetails": true
+                            }
+                          },
+                          {
+                            "card": {
+                              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                              "info": {
+                                "id": "127470900",
+                                "name": "White Forest 500grm",
+                                "category": "Cakes",
+                                "description": "A delicate and moist cake with a heavenly blend of flavors and textures.",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "price": 32000,
+                                "variants": {
+                                  
+                                },
+                                "variantsV2": {
+                                  
+                                },
+                                "itemAttribute": {
+                                  "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                  "text": "Bestseller",
+                                  "textColor": "#ffffff",
+                                  "topBackgroundColor": "#d53d4c",
+                                  "bottomBackgroundColor": "#b02331"
+                                },
+                                "type": "ITEM",
+                                "itemBadge": {
+                                  
+                                },
+                                "badgesV2": {
+                                  
+                                },
+                                "isBestseller": true,
+                                "ratings": {
+                                  "aggregatedRating": {
+                                    
+                                  }
+                                }
+                              },
+                              "analytics": {
+                                
+                              },
+                              "hideRestaurantDetails": true
+                            }
+                          },
+                          {
+                            "card": {
+                              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                              "info": {
+                                "id": "127470895",
+                                "name": "White Choco Chips Cake [500 grams]",
+                                "category": "Cakes",
+                                "description": "A delightful vegetarian cake with creamy white chocolate chips that will satisfy your sweet tooth cravings.",
+                                "imageId": "e8fbc889e3427a59a1ed827d6fddb783",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "price": 32000,
+                                "variants": {
+                                  
+                                },
+                                "variantsV2": {
+                                  
+                                },
+                                "itemAttribute": {
+                                  "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                  "text": "Bestseller",
+                                  "textColor": "#ffffff",
+                                  "topBackgroundColor": "#d53d4c",
+                                  "bottomBackgroundColor": "#b02331"
+                                },
+                                "type": "ITEM",
+                                "itemBadge": {
+                                  
+                                },
+                                "badgesV2": {
+                                  
+                                },
+                                "isBestseller": true,
+                                "ratings": {
+                                  "aggregatedRating": {
+                                    
+                                  }
+                                }
+                              },
+                              "analytics": {
+                                
+                              },
+                              "hideRestaurantDetails": true
+                            }
+                          },
+                          {
+                            "card": {
+                              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                              "info": {
+                                "id": "127470883",
+                                "name": "Kiwi Cake [500 grams]",
+                                "category": "Cakes",
+                                "description": "A delightful fruity cake bursting with the refreshing flavors of kiwi, perfect for dessert lovers.",
+                                "imageId": "b839f9b552a9de18129bd9800198ea71",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "price": 25000,
+                                "variants": {
+                                  
+                                },
+                                "variantsV2": {
+                                  
+                                },
+                                "itemAttribute": {
+                                  "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                  "text": "Bestseller",
+                                  "textColor": "#ffffff",
+                                  "topBackgroundColor": "#d53d4c",
+                                  "bottomBackgroundColor": "#b02331"
+                                },
+                                "type": "ITEM",
+                                "itemBadge": {
+                                  
+                                },
+                                "badgesV2": {
+                                  
+                                },
+                                "isBestseller": true,
+                                "ratings": {
+                                  "aggregatedRating": {
+                                    
+                                  }
+                                }
+                              },
+                              "analytics": {
+                                
+                              },
+                              "hideRestaurantDetails": true
+                            }
+                          },
+                          {
+                            "card": {
+                              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                              "info": {
+                                "id": "127470887",
+                                "name": "Paan Masala Cake [500 grams]",
+                                "category": "Cakes",
+                                "description": "A uniquely flavored cake with a delightful combination of sweet and refreshing bites.",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "price": 28000,
+                                "variants": {
+                                  
+                                },
+                                "variantsV2": {
+                                  
+                                },
+                                "itemAttribute": {
+                                  "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                  
+                                },
+                                "type": "ITEM",
+                                "itemBadge": {
+                                  
+                                },
+                                "badgesV2": {
+                                  
+                                },
+                                "ratings": {
+                                  "aggregatedRating": {
+                                    
+                                  }
+                                }
+                              },
+                              "analytics": {
+                                
+                              },
+                              "hideRestaurantDetails": true
+                            }
+                          },
+                          {
+                            "card": {
+                              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                              "info": {
+                                "id": "127470897",
+                                "name": "Coffee Choco Cake [500 grams]",
+                                "category": "Cakes",
+                                "description": "Indulge in the rich and delightful flavors of this coffee-infused chocolate cake.",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "price": 27000,
+                                "variants": {
+                                  
+                                },
+                                "variantsV2": {
+                                  
+                                },
+                                "itemAttribute": {
+                                  "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                  
+                                },
+                                "type": "ITEM",
+                                "itemBadge": {
+                                  
+                                },
+                                "badgesV2": {
+                                  
+                                },
+                                "ratings": {
+                                  "aggregatedRating": {
+                                    
+                                  }
+                                }
+                              },
+                              "analytics": {
+                                
+                              },
+                              "hideRestaurantDetails": true
+                            }
+                          },
+                          {
+                            "card": {
+                              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                              "info": {
+                                "id": "127470880",
+                                "name": "Orange Cake [500 grams]",
+                                "category": "Cakes",
+                                "description": "Indulge in a scrumptious and citrus-infused delight that will satisfy your sweet cravings with this Orange Cake.",
+                                "imageId": "b61684fb9e7466049987d610e449188b",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "price": 26000,
+                                "variants": {
+                                  "variantGroups": [
+                                    {
+                                      "groupId": "49057185",
+                                      "name": "Quantity",
+                                      "variations": [
+                                        {
+                                          "name": "Serves 1",
+                                          "default": 1,
+                                          "id": "154259368",
+                                          "inStock": 1,
+                                          "isVeg": 1,
+                                          "isEnabled": 1
+                                        },
+                                        {
+                                          "name": "Serves 2",
+                                          "price": 26000,
+                                          "id": "154259369",
+                                          "inStock": 1,
+                                          "isVeg": 1,
+                                          "isEnabled": 1
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                "variantsV2": {
+                                  
+                                },
+                                "itemAttribute": {
+                                  "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                  
+                                },
+                                "type": "ITEM",
+                                "itemBadge": {
+                                  
+                                },
+                                "badgesV2": {
+                                  
+                                },
+                                "ratings": {
+                                  "aggregatedRating": {
+                                    "rating": "4.2",
+                                    "ratingCount": "4 ratings",
+                                    "ratingCountV2": "4"
+                                  }
+                                }
+                              },
+                              "analytics": {
+                                
+                              },
+                              "hideRestaurantDetails": true
+                            }
+                          },
+                          {
+                            "card": {
+                              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                              "info": {
+                                "id": "127470885",
+                                "name": "Blackcurrant Cake [500 grams]",
+                                "category": "Cakes",
+                                "description": "Indulge in a luscious and fruity delight, with the perfect balance of sweetness in every bite.",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "price": 25000,
+                                "variants": {
+                                  
+                                },
+                                "variantsV2": {
+                                  
+                                },
+                                "itemAttribute": {
+                                  "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                  
+                                },
+                                "type": "ITEM",
+                                "itemBadge": {
+                                  
+                                },
+                                "badgesV2": {
+                                  
+                                },
+                                "ratings": {
+                                  "aggregatedRating": {
+                                    
+                                  }
+                                }
+                              },
+                              "analytics": {
+                                
+                              },
+                              "hideRestaurantDetails": true
+                            }
+                          },
+                          {
+                            "card": {
+                              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                              "info": {
+                                "id": "127470891",
+                                "name": "Caramal Cake [500 grams]",
+                                "category": "Cakes",
+                                "description": "Indulge in the irresistible sweetness of a moist and decadent caramel cake, a true delight for any cake lover!",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "price": 25000,
+                                "variants": {
+                                  
+                                },
+                                "variantsV2": {
+                                  
+                                },
+                                "itemAttribute": {
+                                  "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                  
+                                },
+                                "type": "ITEM",
+                                "itemBadge": {
+                                  
+                                },
+                                "badgesV2": {
+                                  
+                                },
+                                "ratings": {
+                                  "aggregatedRating": {
+                                    
+                                  }
+                                }
+                              },
+                              "analytics": {
+                                
+                              },
+                              "hideRestaurantDetails": true
+                            }
+                          },
+                          {
+                            "card": {
+                              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                              "info": {
+                                "id": "127470879",
+                                "name": "Vanilla Cake [500 grams]",
+                                "category": "Cakes",
+                                "description": "A heavenly vanilla cake that satisfies any sweet tooth with its irresistible flavor.",
+                                "imageId": "cb589a5953dca4c4e1d741fa27572701",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "price": 25000,
+                                "variants": {
+                                  "variantGroups": [
+                                    {
+                                      "groupId": "49057179",
+                                      "name": "Quantity",
+                                      "variations": [
+                                        {
+                                          "name": "Serves 1",
+                                          "default": 1,
+                                          "id": "154259349",
+                                          "inStock": 1,
+                                          "isVeg": 1,
+                                          "isEnabled": 1
+                                        },
+                                        {
+                                          "name": "Serves 2",
+                                          "price": 25000,
+                                          "id": "154259352",
+                                          "inStock": 1,
+                                          "isVeg": 1,
+                                          "isEnabled": 1
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                "variantsV2": {
+                                  
+                                },
+                                "itemAttribute": {
+                                  "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                  
+                                },
+                                "type": "ITEM",
+                                "itemBadge": {
+                                  
+                                },
+                                "badgesV2": {
+                                  
+                                },
+                                "ratings": {
+                                  "aggregatedRating": {
+                                    
+                                  }
+                                }
+                              },
+                              "analytics": {
+                                
+                              },
+                              "hideRestaurantDetails": true
+                            }
+                          },
+                          {
+                            "card": {
+                              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                              "info": {
+                                "id": "127470892",
+                                "name": "Light Choco Cake [500 grams]",
+                                "category": "Cakes",
+                                "description": "Indulge in a heavenly, light and scrumptious chocolate cake that will satisfy any sweet tooth.",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "price": 27000,
+                                "variants": {
+                                  
+                                },
+                                "variantsV2": {
+                                  
+                                },
+                                "itemAttribute": {
+                                  "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                  
+                                },
+                                "type": "ITEM",
+                                "itemBadge": {
+                                  
+                                },
+                                "badgesV2": {
+                                  
+                                },
+                                "ratings": {
+                                  "aggregatedRating": {
+                                    
+                                  }
+                                }
+                              },
+                              "analytics": {
+                                
+                              },
+                              "hideRestaurantDetails": true
+                            }
+                          }
+                        ],
+                        "subtitleSuffix": {
+                          
+                        },
+                        "image": "b63725a33cd91270b6811f70b3deeed0",
+                        "categoryId": "42085709"
+                      }
+                    }
+                  },
+                  {
+                    "card": {
+                      "card": {
+                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                        "title": "Pastries",
+                        "itemCards": [
+                          {
+                            "card": {
+                              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                              "info": {
+                                "id": "127470905",
+                                "name": "Pineapple Pastry",
+                                "category": "Pastries",
+                                "description": "A delectable pastry filled with a heavenly combination of sweet pineapple and flaky, buttery crust.",
+                                "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/1/14/142402d1-794e-4f65-a104-b2bed26786d2_268abd74-632b-4b05-b1e4-2183859179cf.JPG",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "price": 5000,
+                                "variants": {
+                                  "variantGroups": [
+                                    {
+                                      "groupId": "49057315",
+                                      "name": "Quantity",
+                                      "variations": [
+                                        {
+                                          "name": "Serves 1",
+                                          "default": 1,
+                                          "id": "154259628",
+                                          "inStock": 1,
+                                          "isVeg": 1,
+                                          "isEnabled": 1
+                                        },
+                                        {
+                                          "name": "Serves 2",
+                                          "price": 5000,
+                                          "id": "154259629",
+                                          "inStock": 1,
+                                          "isVeg": 1,
+                                          "isEnabled": 1
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                "variantsV2": {
+                                  
+                                },
+                                "itemAttribute": {
+                                  "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                  "text": "Bestseller",
+                                  "textColor": "#ffffff",
+                                  "topBackgroundColor": "#d53d4c",
+                                  "bottomBackgroundColor": "#b02331"
+                                },
+                                "type": "ITEM",
+                                "itemBadge": {
+                                  
+                                },
+                                "badgesV2": {
+                                  
+                                },
+                                "isBestseller": true,
+                                "ratings": {
+                                  "aggregatedRating": {
+                                    
+                                  }
+                                }
+                              },
+                              "analytics": {
+                                
+                              },
+                              "hideRestaurantDetails": true
+                            }
+                          },
+                          {
+                            "card": {
+                              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                              "info": {
+                                "id": "127470906",
+                                "name": "White Choco Chips Pastry",
+                                "category": "Pastries",
+                                "description": "Delight in the delectable combination of smooth white chocolate and crunchy chips enveloped in a golden pastry.",
+                                "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/1/14/1d59c989-db9f-47a2-9cf4-69cc7f0db93c_40920723-ad7a-4c34-ba01-efca7f5ad12e.JPG",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "price": 4000,
+                                "variants": {
+                                  
+                                },
+                                "variantsV2": {
+                                  
+                                },
+                                "itemAttribute": {
+                                  "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                  
+                                },
+                                "type": "ITEM",
+                                "itemBadge": {
+                                  
+                                },
+                                "badgesV2": {
+                                  
+                                },
+                                "ratings": {
+                                  "aggregatedRating": {
+                                    
+                                  }
+                                }
+                              },
+                              "analytics": {
+                                
+                              },
+                              "hideRestaurantDetails": true
+                            }
+                          },
+                          {
+                            "card": {
+                              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                              "info": {
+                                "id": "127470904",
+                                "name": "Choco Chip Pastry",
+                                "category": "Pastries",
+                                "description": "A delectable pastry filled with rich and decadent chocolate chips, perfect for indulging in a sweet and delightful treat.",
+                                "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/1/14/2c76b2d5-39b5-4de0-8a15-ee7c61c54c23_563513df-cc4a-475d-bb74-b9afb8e3416d.JPG",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "price": 5000,
+                                "variants": {
+                                  "variantGroups": [
+                                    {
+                                      "groupId": "49057304",
+                                      "name": "Quantity",
+                                      "variations": [
+                                        {
+                                          "name": "Serves 1",
+                                          "default": 1,
+                                          "id": "154259605",
+                                          "inStock": 1,
+                                          "isVeg": 1,
+                                          "isEnabled": 1
+                                        },
+                                        {
+                                          "name": "Serves 2",
+                                          "price": 5000,
+                                          "id": "154259607",
+                                          "inStock": 1,
+                                          "isVeg": 1,
+                                          "isEnabled": 1
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                "variantsV2": {
+                                  
+                                },
+                                "itemAttribute": {
+                                  "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                  "text": "Bestseller",
+                                  "textColor": "#ffffff",
+                                  "topBackgroundColor": "#d53d4c",
+                                  "bottomBackgroundColor": "#b02331"
+                                },
+                                "type": "ITEM",
+                                "itemBadge": {
+                                  
+                                },
+                                "badgesV2": {
+                                  
+                                },
+                                "isBestseller": true,
+                                "ratings": {
+                                  "aggregatedRating": {
+                                    "rating": "3.7",
+                                    "ratingCount": "17 ratings",
+                                    "ratingCountV2": "17"
+                                  }
+                                }
+                              },
+                              "analytics": {
+                                
+                              },
+                              "hideRestaurantDetails": true
+                            }
+                          },
+                          {
+                            "card": {
+                              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                              "info": {
+                                "id": "127470901",
+                                "name": "Butterscotch Pastry",
+                                "category": "Pastries",
+                                "description": "Indulge in a delectable pastry that boasts the rich and irresistible flavors of butterscotch.",
+                                "imageId": "5c36b5cbff1eb216e7b21031c6dd7c27",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "price": 4000,
+                                "variants": {
+                                  "variantGroups": [
+                                    {
+                                      "groupId": "49057287",
+                                      "name": "Quantity",
+                                      "variations": [
+                                        {
+                                          "name": "Serves 1",
+                                          "default": 1,
+                                          "id": "154259571",
+                                          "inStock": 1,
+                                          "isVeg": 1,
+                                          "isEnabled": 1
+                                        },
+                                        {
+                                          "name": "Serves 2",
+                                          "price": 4000,
+                                          "id": "154259573",
+                                          "inStock": 1,
+                                          "isVeg": 1,
+                                          "isEnabled": 1
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                "variantsV2": {
+                                  
+                                },
+                                "itemAttribute": {
+                                  "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                  
+                                },
+                                "type": "ITEM",
+                                "itemBadge": {
+                                  
+                                },
+                                "badgesV2": {
+                                  
+                                },
+                                "ratings": {
+                                  "aggregatedRating": {
+                                    "rating": "3.7",
+                                    "ratingCount": "7 ratings",
+                                    "ratingCountV2": "7"
+                                  }
+                                }
+                              },
+                              "analytics": {
+                                
+                              },
+                              "hideRestaurantDetails": true
+                            }
+                          },
+                          {
+                            "card": {
+                              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                              "info": {
+                                "id": "127470902",
+                                "name": "Pan Masala Pastry",
+                                "category": "Pastries",
+                                "description": "A delightful and flavorful vegetarian pastry that is filled with a harmonious blend of aromatic herbs and spices.",
+                                "imageId": "31cd33fbf82e9a23056d80827b4553e6",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "price": 4000,
+                                "variants": {
+                                  "variantGroups": [
+                                    {
+                                      "groupId": "49057299",
+                                      "name": "Quantity",
+                                      "variations": [
+                                        {
+                                          "name": "Serves 1",
+                                          "default": 1,
+                                          "id": "154259595",
+                                          "inStock": 1,
+                                          "isVeg": 1,
+                                          "isEnabled": 1
+                                        },
+                                        {
+                                          "name": "Serves 2",
+                                          "price": 4000,
+                                          "id": "154259597",
+                                          "inStock": 1,
+                                          "isVeg": 1,
+                                          "isEnabled": 1
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                "variantsV2": {
+                                  
+                                },
+                                "itemAttribute": {
+                                  "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                  
+                                },
+                                "type": "ITEM",
+                                "itemBadge": {
+                                  
+                                },
+                                "badgesV2": {
+                                  
+                                },
+                                "ratings": {
+                                  "aggregatedRating": {
+                                    
+                                  }
+                                }
+                              },
+                              "analytics": {
+                                
+                              },
+                              "hideRestaurantDetails": true
+                            }
+                          }
+                        ],
+                        "subtitleSuffix": {
+                          
+                        },
+                        "image": "FOOD_CATALOG/IMAGES/CMS/2025/1/14/142402d1-794e-4f65-a104-b2bed26786d2_268abd74-632b-4b05-b1e4-2183859179cf.JPG",
+                        "categoryId": "42085710"
+                      }
+                    }
+                  },
+                  {
+                    "card": {
+                      "card": {
+                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantLicenseInfo",
+                        "type": "FSSAI",
+                        "imageId": "fssai_final_edss9i",
+                        "text": [
+                          "License No. 21520211000594"
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "card": {
+                      "card": {
+                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantAddress",
+                        "name": "Little Cake Shop",
+                        "area": "Solapur Locality",
+                        "completeAddress": "Gawli vasti MIDC camma Building Block no. 4"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "firstOffsetRequest": true,
+      "isQCLink": false
+    },
+    "tid": "d4831ecd-4b38-4c69-a1c4-e367b418a4f7",
+    "sid": "jh4f0802-2a78-4ed5-aaff-9ac7d9fc8168",
+    "deviceId": "ae48c84e-fd25-cd1d-3f38-4daa217aec4c",
+    "csrfToken": "G0i65XvwQfbJ-3zqtNrqP_8JGNBhGkj08cpdVhXE"
+  }
