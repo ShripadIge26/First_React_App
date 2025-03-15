@@ -3,6 +3,9 @@ import Shimmer from "./Shimmer";
 import RestaurantCard from "./RestaurantCard";
 import {Link} from 'react-router-dom'
 
+const lat = 17.6599188;
+const lng = 75.9063906;
+
 const CategoryTitle = () => {
   return <h2 className="category-title">Top restaurant chains in Solapur</h2>;
 };
@@ -36,7 +39,7 @@ const Body = () => {
 
   async function getRestaurantList() {
 
-    const data = await fetch("/.netlify/functions/swiggyProxy?lat=17.6599188&lng=75.9063906&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING");
+    const data = await fetch(`/api/swiggyProxy?lat=${encodeURIComponent(lat)}&lng=${encodeURIComponent(lng)}&page_type=DESKTOP_WEB_LISTING`);
 
     const json = await data.json();
 

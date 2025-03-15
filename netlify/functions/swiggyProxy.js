@@ -1,15 +1,15 @@
 exports.handler = async function (event, context) {
-    const fetch = (await import("node-fetch")).default; // Dynamic import for ESM
+    const fetch = (await import("node-fetch")).default; // Dynamic import for node-fetch
   
     console.log("Raw Query String:", event.rawQueryString);
     console.log("Query Parameters:", event.queryStringParameters);
   
-    const { lat, lng } = event.queryStringParameters || {};
+    const { lat, lng } = event.queryStringParameters || {}; // Extract lat & lng
   
     if (!lat || !lng) {
       return {
         statusCode: 400,
-        body: JSON.stringify({ error: "Missing lat or lng parameters" }),
+        body: JSON.stringify({ error: "Missing lat or lng parameters", received: event.queryStringParameters }),
       };
     }
   
