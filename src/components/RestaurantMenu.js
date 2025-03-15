@@ -4,7 +4,7 @@ import { CARD_IMG_CDN_LINK } from '../components/Config'
 import {useDispatch} from 'react-redux'
 import {addItem} from '../utils/cartSlice'
 import MenuItem from "./MenuItem"
-import json2 from "../assets/103726.json"
+import json from "../assets/103726.json"
 
 const RestaurantMenu = () => {
 
@@ -31,12 +31,10 @@ const RestaurantMenu = () => {
             // const data = await fetch(url);
             // const json = await data.json();
     
-            const response = await fetch(`/__parcel_source_root/src/assets/${resId}.json`);
-            const json = await response.json();
-            /*@__PURE__*/ console.log(json);
+            // const response = await fetch(`/__parcel_source_root/src/assets/${resId}.json`);
+            // const json = await response.json();
+
             setRestaurantInfo(json.data.cards[2].card.card.info);
-            /*@__PURE__*/ console.log(json2)
-            
             const depth1 = json?.data?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR;
             const regularMenu = depth1?.cards[2]?.card?.card?.itemCards;
             
