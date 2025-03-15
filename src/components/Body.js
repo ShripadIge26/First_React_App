@@ -39,7 +39,7 @@ const Body = () => {
 
   async function getRestaurantList() {
 
-    const data = await fetch(`/api/swiggyProxy?lat=${encodeURIComponent(lat)}&lng=${encodeURIComponent(lng)}&page_type=DESKTOP_WEB_LISTING`);
+    const data = await fetch(`/api/swiggyProxy?lat=${lat}&lng=${lng}&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING`);
 
     const json = await data.json();
 

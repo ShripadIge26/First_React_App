@@ -1,24 +1,26 @@
-exports.handler = async function (event, context) {
+export async function handler(event) {
     const fetch = (await import("node-fetch")).default; // Dynamic import for node-fetch
   
     console.log("Raw Query String:", event.rawQueryString);
     console.log("Query Parameters:", event.queryStringParameters);
   
-    const { lat, lng } = event.queryStringParameters || {}; // Extract lat & lng
+    const { lat, lng, page_type } = event.queryStringParameters || {}; // Extract params
   
     if (!lat || !lng) {
       return {
         statusCode: 400,
-        body: JSON.stringify({ error: "Missing lat or lng parameters", received: event.queryStringParameters }),
+        body: JSON.stringify({ error: "Missing lat or lng parameters" }),
       };
     }
   
-    try {
-      const apiUrl = `https://www.swiggy.com/dapi/restaurants/list/v5?${event.rawQueryString}`;
-      console.log("Fetching Swiggy API:", apiUrl);
+    const swiggyUrl = `https://www.swiggy.com/dapi/restaurants/list/v5?${event.rawQueryString}`;
+    console.log("Fetching Swiggy API:", swiggyUrl);
   
-      const response = await fetch(apiUrl, {
-        headers: { "User-Agent": "Mozilla/5.0" },
+    try {
+      const response = await fetch(swiggyUrl, {
+        headers: {
+          "User-Agent": "Mozilla/5.0", // Prevent blocking
+        },
       });
   
       const data = await response.json();
@@ -33,5 +35,5 @@ exports.handler = async function (event, context) {
         body: JSON.stringify({ error: "Failed to fetch Swiggy API" }),
       };
     }
-  };
+  }
   
