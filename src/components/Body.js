@@ -38,10 +38,11 @@ const Body = () => {
   }, []);
 
   async function getRestaurantList() {
+    const apiUrl = `/api/swiggyProxy?lat=${lat}&lng=${lng}&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING`;
+    console.log("Fetching from URL:", apiUrl); // Log the URL
+  
     try {
-      const response = await fetch(
-        `/api/swiggyProxy?lat=${lat}&lng=${lng}&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING`
-      );
+      const response = await fetch(apiUrl);
   
       if (!response.ok) {
         throw new Error(`HTTP error! Status: ${response.status}`);
@@ -58,6 +59,7 @@ const Body = () => {
       console.error("Failed to fetch restaurant data:", error);
     }
   }
+  
   
 
   if (!allRestaurants) return null;
