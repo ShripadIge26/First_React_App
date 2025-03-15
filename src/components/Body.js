@@ -2,9 +2,7 @@ import React, { useState, useEffect } from "react";
 import Shimmer from "./Shimmer";
 import RestaurantCard from "./RestaurantCard";
 import {Link} from 'react-router-dom'
-
-const lat = 17.6599188;
-const lng = 75.9063906;
+import restaurantData from '../assets/swiggyData.json'
 
 const CategoryTitle = () => {
   return <h2 className="category-title">Top restaurant chains in Solapur</h2>;
@@ -38,29 +36,17 @@ const Body = () => {
   }, []);
 
   async function getRestaurantList() {
-    const apiUrl = `/api/swiggyProxy?lat=${lat}&lng=${lng}&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING`;
-    console.log("Fetching from URL:", apiUrl); // Log the URL
-  
-    try {
-      const response = await fetch(apiUrl);
-  
-      if (!response.ok) {
-        throw new Error(`HTTP error! Status: ${response.status}`);
-      }
-  
-      const json = await response.json();
-  
-      const restaurants =
-        json?.data?.cards?.[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants || [];
-  
-      setAllRestaurants(restaurants);
-      setfilteredRestaurants(restaurants);
-    } catch (error) {
-      console.error("Failed to fetch restaurant data:", error);
-    }
+
+    // const data = await fetch("https://www.swiggy.com/dapi/restaurants/list/v5?lat=17.6599188&lng=75.9063906&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING");
+
+    // const json = await data.json();
+
+    const json = restaurantData;
+
+    setAllRestaurants(json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
+    setfilteredRestaurants(json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
+
   }
-  
-  
 
   if (!allRestaurants) return null;
 

@@ -4,12 +4,14 @@ import { CARD_IMG_CDN_LINK } from '../components/Config'
 import {useDispatch} from 'react-redux'
 import {addItem} from '../utils/cartSlice'
 import MenuItem from "./MenuItem"
+// import json from "../assets/103726.json"
 
 const RestaurantMenu = () => {
 
     const { resId } = useParams("");
     const [restaurantInfo, setRestaurantInfo] = useState({})
     const [restaurantMenuItems, setRestaurantMenuItems] = useState([])
+    const [cloudinaryImage, setCloudinaryImage] = useState("");
     const dispatch = useDispatch()
 
     const handleAddItem = (x) => {
@@ -23,20 +25,29 @@ const RestaurantMenu = () => {
     // Pastaas by Pizza hut 861596
 
     async function menuDetails(resId) {
-        const url = "https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=17.6599188&lng=75.9063906&restaurantId=" + resId + "&catalog_qa=undefined&submitAction=ENTER";
-        const data = await fetch(url);
-        const json = await data.json();
 
-        setRestaurantInfo(json?.data?.cards[2]?.card?.card?.info);
-        
-        const depth1 = json?.data?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR;
-        const regularMenu = depth1?.cards[2]?.card?.card?.itemCards;
-        
-        const depth2 = depth1?.cards?.slice(2);
-        const specialMenu = depth2?.flatMap(item => item?.card?.card?.itemCards).filter(item => item);
+        try {
+            // const url = "https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=17.6599188&lng=75.9063906&restaurantId=" + resId + "&catalog_qa=undefined&submitAction=ENTER";
+            // const data = await fetch(url);
+            // const json = await data.json();
+    
+            const response = await fetch(`/__parcel_source_root/src/assets/${resId}.json`);
+            const json = await response.json();
+            console.log(json);
+            setRestaurantInfo(json.data.cards[2].card.card.info);
+            
+            const depth1 = json?.data?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR;
+            const regularMenu = depth1?.cards[2]?.card?.card?.itemCards;
+            
+            const depth2 = depth1?.cards?.slice(2);
+            const specialMenu = depth2?.flatMap(item => item?.card?.card?.itemCards).filter(item => item);
+            setCloudinaryImage(json.data.cards[2].card.card.info.cloudinaryImageId);
 
-        
-        setRestaurantMenuItems(regularMenu || specialMenu || []);
+            setRestaurantMenuItems(regularMenu || specialMenu || []);
+            console.log()
+        } catch (error) {
+            console.error("Error loading restaurant data:", error);
+        }
         
     }
 
@@ -44,7 +55,7 @@ const RestaurantMenu = () => {
     return (
         <div className="restaurant-main-info-wrapper">
             <div className="restaurant-info-wrapper">
-                    <img src={CARD_IMG_CDN_LINK + restaurantInfo.cloudinaryImageId} alt="" className="info-cloudinary-image" />
+                    <img src={CARD_IMG_CDN_LINK + cloudinaryImage} alt="" className="info-cloudinary-image" />
                     <div className="info-details">
                         <h2>{restaurantInfo.name}</h2>
                         <p>Restaurant ID: {resId}</p>
