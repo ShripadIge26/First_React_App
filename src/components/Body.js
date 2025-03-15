@@ -38,15 +38,27 @@ const Body = () => {
   }, []);
 
   async function getRestaurantList() {
-
-    const data = await fetch(`/api/swiggyProxy?lat=${lat}&lng=${lng}&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING`);
-
-    const json = await data.json();
-
-    setAllRestaurants(json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
-    setfilteredRestaurants(json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
-
+    try {
+      const response = await fetch(
+        `/api/swiggyProxy?lat=${lat}&lng=${lng}&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING`
+      );
+  
+      if (!response.ok) {
+        throw new Error(`HTTP error! Status: ${response.status}`);
+      }
+  
+      const json = await response.json();
+  
+      const restaurants =
+        json?.data?.cards?.[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants || [];
+  
+      setAllRestaurants(restaurants);
+      setfilteredRestaurants(restaurants);
+    } catch (error) {
+      console.error("Failed to fetch restaurant data:", error);
+    }
   }
+  
 
   if (!allRestaurants) return null;
 
